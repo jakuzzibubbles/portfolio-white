@@ -1,6 +1,5 @@
 import React from "react";
 
-// Import images
 import mushroomsImage from "./assets/mushrooms.png";
 import valentineImage from "./assets/valentine.png";
 import paralaxImage from "./assets/paralax.png";
@@ -31,28 +30,30 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-      {projects.map((project, index) => (
-        <div
-          key={index}
-          className="text-center p-6 shadow-lg rounded-2xl bg-white w-72"
-        >
-          <h2 className="text-xl font-semibold mb-4">{project.title}</h2>
-          <img
-            src={project.image}
-            alt={project.title}
-            className="w-64 h-44 mb-4 rounded-lg"
-          />
-          <a
-            href={project.link}
-            className="text-lg text-blue-400 hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div className="container mx-auto px-6 py-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="text-center p-6 shadow-lg rounded-2xl bg-white w-full max-w-xs mx-auto"
           >
-            Demo
-          </a>
-        </div>
-      ))}
+            <h2 className="text-xl font-semibold mb-4">{project.title}</h2>
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-64 h-44 mb-4 rounded-lg object-cover"
+            />
+            <a
+              href={project.link}
+              className="text-lg text-blue-400 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
