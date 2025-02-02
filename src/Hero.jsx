@@ -13,7 +13,7 @@ const Hero = () => {
         <p className="text-lg mb-8">
           Hi, I&apos;m a project manager with lots of energy and a sense of
           humor. In my free time, I turn into a software developer, building
-          useful and fun apps and exploring the cloud because I enjoy working
+          useful and fun apps and cloud computing because I enjoy working
           with code. I love swimming in the ocean, Vietnamese street food, cats,
           and exploring the universe, along with all things art and code.
         </p>
