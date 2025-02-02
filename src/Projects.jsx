@@ -31,13 +31,16 @@ const projects = [
 const Projects = () => {
   return (
     <div className="container mx-auto px-6 py-12">
+      <h1 className="text-3xl text-pink-700 font-semibold text-center mb-8">Made with 🩷</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="text-center p-6 shadow-lg rounded-2xl bg-black w-full max-w-xs mx-auto"
+            className="text-center p-6 shadow-lg rounded-2xl bg-slate-900/90 w-full max-w-xs mx-auto"
           >
-            <h2 className="text-xl text-white font-semibold mb-4">{project.title}</h2>
+            <h2 className="text-xl text-white mb-4">
+              {project.title}
+            </h2>
             <img
               src={project.image}
               alt={project.title}
