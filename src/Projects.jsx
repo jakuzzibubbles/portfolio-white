@@ -1,0 +1,60 @@
+import React from "react";
+
+// Import images
+import mushroomsImage from "./assets/mushrooms.png";
+import valentineImage from "./assets/valentine.png";
+import paralaxImage from "./assets/paralax.png";
+import portfolio1Image from "./assets/portfolio1.png";
+
+const projects = [
+  {
+    title: "Tic Tac Toe",
+    image: mushroomsImage,
+    link: "https://shrooms.vercel.app/",
+  },
+  {
+    title: "Be My Valentine",
+    image: valentineImage,
+    link: "https://jakuzzibubbles.github.io/be-my-valentine/",
+  },
+  {
+    title: "Portfolio Paralax",
+    image: paralaxImage,
+    link: "https://portfolio-linh.vercel.app/",
+  },
+  {
+    title: "Portfolio React",
+    image: portfolio1Image,
+    link: "https://jakuzzibubbles-portfolio.vercel.app/",
+  },
+];
+
+const Projects = () => {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      {projects.map((project, index) => (
+        <div
+          key={index}
+          className="text-center p-6 shadow-lg rounded-2xl bg-white w-72"
+        >
+          <h2 className="text-xl font-semibold mb-4">{project.title}</h2>
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-64 h-44 mb-4 rounded-lg"
+          />
+          <a
+            href={project.link}
+            className="text-lg text-blue-400 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Demo
+          </a>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Projects;
