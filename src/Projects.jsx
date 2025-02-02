@@ -35,9 +35,9 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="text-center p-6 shadow-lg rounded-2xl bg-white w-full max-w-xs mx-auto"
+            className="text-center p-6 shadow-lg rounded-2xl bg-black w-full max-w-xs mx-auto"
           >
-            <h2 className="text-xl font-semibold mb-4">{project.title}</h2>
+            <h2 className="text-xl text-white font-semibold mb-4">{project.title}</h2>
             <img
               src={project.image}
               alt={project.title}
