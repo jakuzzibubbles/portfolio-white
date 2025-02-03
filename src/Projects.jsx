@@ -7,11 +7,11 @@ import portfolio1Image from "./assets/portfolio1.png";
 
 const projects = [
   {
-    title: "tic tac toe",
+    title: "5 shrooms",
     image: mushroomsImage,
     link: "https://shrooms.vercel.app/",
     description:
-      "with a mushroom theme and a twist",
+      "tic-tac-toe with a twist",
   },
   {
     title: "be my valentine",
@@ -23,13 +23,13 @@ const projects = [
     title: "portfolio paralax",
     image: paralaxImage,
     link: "https://portfolio-linh.vercel.app/",
-    description: "experimenting with threejs.",
+    description: "experimenting with threejs",
   },
   {
     title: "portfolio react",
     image: portfolio1Image,
     link: "https://jakuzzibubbles-portfolio.vercel.app/",
-    description: "built using react, vite & tailwindcss",
+    description: "built using react and tailwindcss",
   },
 ];
 
