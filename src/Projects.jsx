@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaReact } from "react-icons/fa";
 import mushroomsImage from "./assets/mushrooms.png";
 import valentineImage from "./assets/valentine.png";
 import paralaxImage from "./assets/paralax.png";
@@ -31,16 +31,17 @@ const projects = [
 const Projects = () => {
   return (
     <div className="container mx-auto px-6 py-12">
-      <h1 className="text-3xl text-black text-center mb-8">Made with 🩷</h1>
+      <h1 className="text-3xl text-black text-center mb-8 flex items-center justify-center gap-2">
+        Made with 🩷 & <FaReact size={30} className="text-blue-950" />
+      </h1>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {projects.map((project, index) => (
           <div
             key={index}
             className="text-center p-6 shadow-lg rounded-2xl bg-slate-900/90 w-full max-w-xs mx-auto"
           >
-            <h2 className="text-xl text-white mb-4">
-              {project.title}
-            </h2>
+            <h2 className="text-xl text-white mb-4">{project.title}</h2>
             <img
               src={project.image}
               alt={project.title}
