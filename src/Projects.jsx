@@ -23,13 +23,13 @@ const projects = [
     title: "portfolio paralax",
     image: paralaxImage,
     link: "https://portfolio-linh.vercel.app/",
-    description: "experiemting with threejs.",
+    description: "experimenting with threejs.",
   },
   {
     title: "portfolio react",
     image: portfolio1Image,
     link: "https://jakuzzibubbles-portfolio.vercel.app/",
-    description: "built using react",
+    description: "built using react, vite & tailwindcss",
   },
 ];
 
