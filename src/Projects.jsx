@@ -1,5 +1,5 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa";
 import mushroomsImage from "./assets/mushrooms.png";
 import valentineImage from "./assets/valentine.png";
 import paralaxImage from "./assets/paralax.png";
@@ -33,6 +33,9 @@ const Projects = () => {
     <div className="container mx-auto px-6 py-12">
       <h1 className="text-3xl text-black text-center mb-8 flex items-center justify-center gap-2">
         Made with 🩷 & <FaReact size={30} className="text-blue-950" />
+        <FaHtml5 size={30} className="text-orange-600" />
+        <FaCss3Alt size={30} className="text-blue-500" />
+        <FaJsSquare size={30} className="text-yellow-500" />
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
