@@ -7,15 +7,15 @@ import {
 const Hero = () => {
   return (
     <section className="flex flex-col items-center justify-center text-black min-h-screen text-center">
-      <h1 className="text-5xl font-bold mb-4">Linh Nguyen</h1>
+      <h1 className="text-5xl font-bold mb-4">linh nguyen</h1>
 
       <div className="max-w-3xl px-4">
         <p className="text-lg mb-8">
           Hi, I&apos;m a project manager with lots of energy and a sense of
           humor. In my free time, I turn into a software developer, building
-          useful and fun apps. Currently exploring cloud computing because... why not👽!
+          useful and fun apps. Currently exploring cloud computing because... why not 👽!
           I love swimming in the ocean, Vietnamese street food, and my cats, 
-          along with all things art and code.
+          along with all things art and all things code.
         </p>
       </div>
       <div className="flex space-x-6 mt-4 mb-6">
