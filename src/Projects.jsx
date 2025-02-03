@@ -7,7 +7,7 @@ import portfolio1Image from "./assets/portfolio1.png";
 
 const projects = [
   {
-    title: "5 shrooms",
+    title: "five shrooms",
     image: mushroomsImage,
     link: "https://shrooms.vercel.app/",
     description:
@@ -37,7 +37,8 @@ const Projects = () => {
   return (
     <div className="container mx-auto px-6 py-12">
       <h1 className="text-3xl text-black text-center mb-12 flex items-center justify-center gap-2 flex-wrap">
-        my personal digital collection made with 🩷 & <FaReact size={30} className="text-blue-950 sm:size-24" />
+        my personal collection of digital experiences made with 🩷 & 
+        <FaReact size={30} className="text-blue-950 sm:size-24" />
         <FaHtml5 size={30} className="text-orange-600 sm:size-24" />
         <FaCss3Alt size={30} className="text-blue-500 sm:size-24" />
         <FaJsSquare size={30} className="text-yellow-500 sm:size-24" />
