@@ -14,10 +14,11 @@ const App = () => {
       <footer className="text-black text-center py-4 mt-8">
         <a
           href="./src/assets/LinhNguyen.pdf"
-          download="Linh_Nguyen_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-pink-900 text-2xl font-semibold hover:underline"
         >
-          Download Resume
+          View Resume
         </a>
         <p>&copy; 2025 Linh Nguyen. All rights reserved.</p>
       </footer>
