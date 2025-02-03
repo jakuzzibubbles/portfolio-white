@@ -12,8 +12,8 @@ const Hero = () => {
       <div className="max-w-3xl px-4">
         <p className="text-lg mb-8">
           Hi, I&apos;m a project manager with lots of energy and a sense of
-          humor. In my free time, I turn into a software developer, building
-          useful and fun apps. Currently exploring cloud computing because... why not 👽!
+          humor. At night, I turn into a software developer, building
+          fun apps that makes me happy. Currently exploring cloud computing because... why not 👽!
           I love swimming in the ocean, Vietnamese street food, and my cats, 
           along with all things art and all things code.
         </p>
