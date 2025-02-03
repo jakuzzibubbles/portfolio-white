@@ -18,7 +18,7 @@ const App = () => {
           rel="noopener noreferrer"
           className="text-pink-900 text-2xl font-semibold hover:underline"
         >
-          View Resume
+          view resume
         </a>
         <p>&copy; 2025 Linh Nguyen. All rights reserved.</p>
       </footer>
