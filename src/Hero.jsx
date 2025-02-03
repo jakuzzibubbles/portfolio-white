@@ -13,9 +13,9 @@ const Hero = () => {
         <p className="text-lg mb-8">
           Hi, I&apos;m a project manager with lots of energy and a sense of
           humor. In my free time, I turn into a software developer, building
-          useful and fun apps. Currently exploring cloud computing because
-          I enjoy working with code. I love swimming in the ocean, Vietnamese
-          street food, and my cats, along with all things art and code.
+          useful and fun apps. Currently exploring cloud computing because... why not👽!
+          I love swimming in the ocean, Vietnamese street food, and my cats, 
+          along with all things art and code.
         </p>
       </div>
       <div className="flex space-x-6 mt-4 mb-6">
