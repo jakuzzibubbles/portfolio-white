@@ -95,18 +95,20 @@ const Projects = () => {
         ))}
       </Swiper>
 
-      <button
-        onClick={() => swiperRef.current.swiper.slidePrev()}
-        className="swiper-button-prev absolute top-3/4 left-0 transform -translate-y-1/2 bg-transparent text-black text-3xl p-3 rounded-full shadow-lg z-10"
-      >
-        ❮
-      </button>
-      <button
-        onClick={() => swiperRef.current.swiper.slideNext()}
-        className="swiper-button-next absolute top-3/4 right-0 transform -translate-y-1/2 bg-transparent text-black text-3xl p-3 rounded-full shadow-lg z-10"
-      >
-        ❯
-      </button>
+      <div className="flex justify-center items-center gap-8 mt-6">
+        <button
+          onClick={() => swiperRef.current.swiper.slidePrev()}
+          className="bg-transparent text-slate-600/80 text-2xl p-3 rounded-full shadow-lg transform transition-transform hover:scale-150"
+        >
+          ❮
+        </button>
+        <button
+          onClick={() => swiperRef.current.swiper.slideNext()}
+          className="bg-transparent text-slate-600/80 text-2xl p-3 rounded-full shadow-lg transform transition-transform hover:scale-150"
+        >
+          ❯
+        </button>
+      </div>
     </div>
   );
 };

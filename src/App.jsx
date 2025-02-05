@@ -16,11 +16,11 @@ const App = () => {
           href="./LinhNguyen.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-pink-900 text-2xl font-semibold hover:underline"
+          className="text-slate-900 text-2xl border-2 border-slate-900 px-4 rounded-lg transition duration-300 hover:bg-slate-900 hover:text-white"
         >
           view resume
         </a>
-        <p>&copy; 2025 Linh Nguyen. All rights reserved.</p>
+        <p className="mt-8">&copy; 2025 Linh Nguyen. All rights reserved.</p>
       </footer>
     </div>
   );
