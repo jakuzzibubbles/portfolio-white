@@ -10,6 +10,7 @@ import valentineImage from "./assets/valentine.png";
 import paralaxImage from "./assets/paralax.png";
 import portfolio1Image from "./assets/portfolio1.png";
 import memoryImage from "./assets/memory-card.png";
+import taskImage from "./assets/task.png";
 
 const projects = [
   {
@@ -29,6 +30,12 @@ const projects = [
     image: valentineImage,
     link: "https://jakuzzibubbles.github.io/be-my-valentine/",
     description: "a message for your date",
+  },
+  {
+    title: "taskmanager",
+    image: taskImage,
+    link: "https://jakuzzibubbles.github.io/taskmanager/",
+    description: "just another to-do list",
   },
   {
     title: "portfolio paralax",
