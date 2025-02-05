@@ -1,23 +1,34 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Navigation } from "swiper/modules";
 import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import { FreeMode } from "swiper/modules";
 import mushroomsImage from "./assets/mushrooms.png";
 import valentineImage from "./assets/valentine.png";
 import paralaxImage from "./assets/paralax.png";
 import portfolio1Image from "./assets/portfolio1.png";
+import memoryImage from "./assets/memory-card.png";
 
 const projects = [
   {
     title: "five shrooms",
     image: mushroomsImage,
     link: "https://shrooms.vercel.app/",
-    description:
-      "tic-tac-toe with a twist",
+    description: "tic-tac-toe with a twist",
+  },
+  {
+    title: "food coma",
+    image: memoryImage,
+    link: "https://the-odin-project-mu.vercel.app/",
+    description: "learning react",
   },
   {
     title: "be my valentine",
     image: valentineImage,
     link: "https://jakuzzibubbles.github.io/be-my-valentine/",
-    description: "makes me happy to code",
+    description: "a message for your date",
   },
   {
     title: "portfolio paralax",
@@ -34,35 +45,68 @@ const projects = [
 ];
 
 const Projects = () => {
+
+  const swiperRef = useRef(null);
+
   return (
     <div className="container mx-auto px-6 py-12">
       <h1 className="text-3xl text-black text-center mb-12 flex items-center justify-center gap-2 flex-wrap">
-        my personal collection of digital experiences made with 🩷 & 
+        my personal collection of digital experiences made with 🩷 &
         <FaReact size={30} className="text-blue-950 sm:size-24" />
         <FaHtml5 size={30} className="text-orange-600 sm:size-24" />
         <FaCss3Alt size={30} className="text-blue-500 sm:size-24" />
         <FaJsSquare size={30} className="text-yellow-500 sm:size-24" />
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <Swiper
+        ref={swiperRef}
+        slidesPerView={1.2}
+        spaceBetween={40}
+        breakpoints={{
+          640: { slidesPerView: 2.2 },
+          1024: { slidesPerView: 3.2 },
+        }}
+        freeMode={true}
+        grabCursor={true}
+        modules={[Navigation, FreeMode]}
+        className="w-full"
+      >
         {projects.map((project, index) => (
-          <a
+          <SwiperSlide
             key={index}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-center p-6 shadow-lg rounded-2xl bg-slate-900/90 w-full max-w-xs mx-auto transform transition-transform hover:scale-105"
+            className="border-2 border-slate-400 shadow-lg bg-slate-200/50 flex flex-col items-center rounded-2xl"
           >
-            <h2 className="text-xl text-white mb-4">{project.title}</h2>
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-64 h-44 mb-4 rounded-lg object-cover"
-            />
-            <p className="text-sm text-gray-300">{project.description}</p>
-          </a>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center transform transition-transform hover:scale-105"
+            >
+              <h2 className="text-xl text-black mt-4">{project.title}</h2>
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-64 h-44 mb-4 rounded-lg object-cover mt-6"
+              />
+
+              <p className="text-sm text-black mb-6">{project.description}</p>
+            </a>
+          </SwiperSlide>
         ))}
-      </div>
+      </Swiper>
+
+      <button
+        onClick={() => swiperRef.current.swiper.slidePrev()}
+        className="swiper-button-prev absolute top-3/4 left-0 transform -translate-y-1/2 bg-transparent text-black text-3xl p-3 rounded-full shadow-lg z-10"
+      >
+        ❮
+      </button>
+      <button
+        onClick={() => swiperRef.current.swiper.slideNext()}
+        className="swiper-button-next absolute top-3/4 right-0 transform -translate-y-1/2 bg-transparent text-black text-3xl p-3 rounded-full shadow-lg z-10"
+      >
+        ❯
+      </button>
     </div>
   );
 };
