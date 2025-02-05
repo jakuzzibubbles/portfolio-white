@@ -32,7 +32,7 @@ const projects = [
     description: "a message for your date",
   },
   {
-    title: "taskmanager",
+    title: "collecting ideas",
     image: taskImage,
     link: "https://jakuzzibubbles.github.io/taskmanager/",
     description: "just another to-do list",
