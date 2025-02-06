@@ -56,7 +56,7 @@ const Projects = () => {
   const swiperRef = useRef(null);
 
   return (
-    <div className="container mx-auto px-6 py-12 mt-24">
+    <div className="container mx-auto px-6 py-12 mt-24 bg-transparent">
       <h1 className="text-3xl text-black text-center mb-12 flex items-center justify-center gap-2 flex-wrap">
         my personal collection of digital experiences made with 🩷 &
         <FaReact size={30} className="text-blue-950 sm:size-24" />

@@ -4,7 +4,7 @@ import Projects from "./Projects";
 
 const App = () => {
   return (
-    <div className="bg-gray-100 min-h-screen relative">
+    <div className="bg-white min-h-screen relative">
       {/* <div className="ui-circle absolute top-64 left-5 sm:left-10 md:left-20 opacity-20 animate-pulse"></div>
       <div className="ui-circle absolute top-80 left-16 sm:left-32 opacity-20 animate-pulse"></div>
       <div className="ui-circle absolute top-96 left-24 sm:left-48 opacity-20 animate-pulse"></div> */}
