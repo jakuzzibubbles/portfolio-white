@@ -13,7 +13,7 @@ const App = () => {
       <Projects />
       <footer className="text-black text-center py-4 mt-8">
         <a
-          href="./LinhNguyen.pdf"
+          href="./Linh Nguyen Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-slate-900 text-2xl border-2 border-slate-900 px-4 rounded-lg transition duration-300 hover:bg-slate-900 hover:text-white"
