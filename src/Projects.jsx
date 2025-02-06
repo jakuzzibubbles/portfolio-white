@@ -81,7 +81,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <SwiperSlide
             key={index}
-            className="border-2 border-slate-400 shadow-lg bg-slate-200/50 flex flex-col items-center rounded-2xl"
+            className="border-2 border-slate-400 shadow-lg bg-slate-700 flex flex-col items-center rounded-2xl"
           >
             <a
               href={project.link}
@@ -89,14 +89,14 @@ const Projects = () => {
               rel="noopener noreferrer"
               className="flex flex-col items-center transform transition-transform hover:scale-105"
             >
-              <h2 className="text-xl text-black mt-4">{project.title}</h2>
+              <h2 className="text-xl text-white mt-4">{project.title}</h2>
               <img
                 src={project.image}
                 alt={project.title}
                 className="w-64 h-44 mb-4 rounded-lg object-cover mt-6"
               />
 
-              <p className="text-sm text-black mb-6">{project.description}</p>
+              <p className="text-sm text-white mb-6">{project.description}</p>
             </a>
           </SwiperSlide>
         ))}
