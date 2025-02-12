@@ -12,14 +12,14 @@ const App = () => {
       <Hero />
       <Projects />
       <footer className="text-black text-center py-4 mt-8">
-        <a
+        {/* <a
           href="./Linh Nguyen Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-2xl bg-slate-700 border-2 px-4 rounded-lg transition duration-300 hover:bg-slate-200/80 hover:text-slate-900"
         >
           view resume
-        </a>
+        </a> */}
         <p className="mt-8">&copy; 2025 Linh Nguyen. All rights reserved.</p>
       </footer>
     </div>
