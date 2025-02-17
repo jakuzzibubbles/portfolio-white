@@ -1,8 +1,23 @@
+import { useState, useEffect } from "react";
 import React from "react";
 import Hero from "./Hero";
 import Projects from "./Projects";
+import LoadingScreen from "./Loading";
 
-const App = () => {
+function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <LoadingScreen />;
+  }
+
   return (
     <div className="bg-white min-h-screen relative">
       {/* <div className="ui-circle absolute top-64 left-5 sm:left-10 md:left-20 opacity-20 animate-pulse"></div>
