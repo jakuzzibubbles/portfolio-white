@@ -6,13 +6,23 @@ import LoadingScreen from "./Loading";
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [assetsLoaded, setAssetsLoaded] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1500);
+      setAssetsLoaded(true);
+    }, 2000);
+
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    if (assetsLoaded) {
+      setTimeout(() => {
+        setLoading(false);
+      }, 500);
+    }
+  }, [assetsLoaded]);
 
   if (loading) {
     return <LoadingScreen />;
