@@ -1,11 +1,10 @@
 import {
   FaBriefcase,
-  FaTrophy,
   FaLaptopCode,
-  FaCertificate,
+  FaTools,
   FaCode,
   FaCloud,
-  FaTools,
+  FaAws,
   FaTerminal,
 } from "react-icons/fa";
 import {
@@ -22,7 +21,7 @@ import {
   SiAsana,
   SiUbuntu,
 } from "react-icons/si";
-import { GiSprint } from "react-icons/gi";
+import { GiSprint, GiInfinity } from "react-icons/gi";
 import { IoLogoNodejs } from "react-icons/io5";
 import mushroomsImage from "../assets/mushrooms.png";
 import valentineImage from "../assets/valentine.png";
@@ -172,7 +171,7 @@ export const SKILLS = [
     id: "10",
     type: "achievements",
     title: "Improved Task Timelines",
-    icon: FaTrophy,
+    icon: GiInfinity,
     description:
       "Reduced task completion timelines by 15% for a public institution web portal by implementing Agile methodologies and optimizing team workflows, ensuring timely project delivery.",
   },
@@ -180,7 +179,7 @@ export const SKILLS = [
     id: "11",
     type: "achievements",
     title: "Increased Team Productivity",
-    icon: FaTrophy,
+    icon: GiInfinity,
     description:
       "Boosted team productivity by 25% by introducing daily stand-ups and task boards, improving task visibility and accountability across cross-functional teams.",
   },
@@ -188,7 +187,7 @@ export const SKILLS = [
     id: "12",
     type: "achievements",
     title: "Generated High-Quality Leads",
-    icon: FaTrophy,
+    icon: GiInfinity,
     description:
       "Identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region.",
   },
@@ -196,7 +195,7 @@ export const SKILLS = [
     id: "13",
     type: "achievements",
     title: "Integrated Tools and Enhanced Workflows",
-    icon: FaTrophy,
+    icon: GiInfinity,
     description:
       "Streamlined PR and marketing workflows by integrating tools like JIRA and Asana, reducing task redundancy and improving cross-team collaboration by 20%.",
   },
@@ -212,7 +211,7 @@ export const SKILLS = [
     id: "15",
     type: "skills",
     title: "AWS Cloud Practitioner",
-    icon: FaCertificate,
+    icon: FaAws,
     description:
       "AWS Certified Cloud Practitioner (July 2024) with hands-on experience in deploying and managing cloud infrastructure on AWS. Fluency in core AWS services, including EC2, S3, and IAM, enabling scalable and secure cloud solutions for businesses.",
   },
@@ -220,7 +219,7 @@ export const SKILLS = [
     id: "16",
     type: "skills",
     title: "Linux Essentials",
-    icon: FaCertificate,
+    icon: FaTools,
     description:
       "Linux Professional Institute - LPI (January 2024). Certified in Linux Essentials with practical knowledge of Linux systems, including Ubuntu. Skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
   },
@@ -267,7 +266,7 @@ export const SKILLS = [
   {
     id: "22",
     type: "technologies",
-    title: "HTML5",
+    title: "HTML5 & CSS3",
     icon: SiHtml5,
     description:
       "Building structured, semantic markup for modern web applications.",
@@ -275,7 +274,7 @@ export const SKILLS = [
   {
     id: "23",
     type: "technologies",
-    title: "CSS3",
+    title: "",
     icon: SiCss3,
     description:
       "Styling web applications with modern CSS features and animations.",
@@ -327,28 +326,13 @@ export const SKILLS = [
   {
     id: "30",
     type: "technologies",
-    title: "Unit Testing",
+    title: "Testing",
     icon: FaCode,
-    description: "Writing and maintaining unit tests for code reliability.",
+    description:
+      "Writing and maintaining unit tests for code reliability. Implementing and analyzing A/B tests for feature optimization. Ensuring different parts of the application work together seamlessly.",
   },
   {
     id: "31",
-    type: "technologies",
-    title: "Integration Testing",
-    icon: FaCode,
-    description:
-      "Ensuring different parts of the application work together seamlessly.",
-  },
-  {
-    id: "32",
-    type: "technologies",
-    title: "A/B Testing",
-    icon: FaCode,
-    description:
-      "Implementing and analyzing A/B tests for feature optimization.",
-  },
-  {
-    id: "33",
     type: "technologies",
     title: "Linux/Ubuntu",
     icon: SiUbuntu,
@@ -356,14 +340,14 @@ export const SKILLS = [
       "Working with Linux systems, particularly Ubuntu distribution.",
   },
   {
-    id: "34",
+    id: "32",
     type: "technologies",
     title: "Cloud Services",
     icon: FaCloud,
     description: "Working with AWS and GCP cloud platforms and services.",
   },
   {
-    id: "35",
+    id: "33",
     title: "Express",
     type: "technologies",
     icon: SiExpress,
