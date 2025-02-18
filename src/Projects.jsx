@@ -11,6 +11,7 @@ import paralaxImage from "./assets/paralax.png";
 import portfolio1Image from "./assets/portfolio1.png";
 import memoryImage from "./assets/memory-card.png";
 import taskImage from "./assets/task.png";
+import adminImage from "./assets/admin.png";
 
 const projects = [
   {
@@ -32,12 +33,6 @@ const projects = [
     description: "a message for your date",
   },
   {
-    title: "collecting ideas",
-    image: taskImage,
-    link: "https://jakuzzibubbles.github.io/taskmanager/",
-    description: "just another to-do list",
-  },
-  {
     title: "portfolio paralax",
     image: paralaxImage,
     link: "https://portfolio-linh.vercel.app/",
@@ -48,6 +43,18 @@ const projects = [
     image: portfolio1Image,
     link: "https://jakuzzibubbles-portfolio.vercel.app/",
     description: "built using react and tailwindcss",
+  },
+  {
+    title: "collecting ideas",
+    image: taskImage,
+    link: "https://jakuzzibubbles.github.io/taskmanager/",
+    description: "just another to-do list",
+  },
+  {
+    title: "admin dashboard",
+    image: adminImage,
+    link: "https://jakuzzibubbles.github.io/admin-dashboard/",
+    description: "making friends with html and css",
   },
 ];
 
