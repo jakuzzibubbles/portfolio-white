@@ -23,6 +23,58 @@ import {
 } from "react-icons/si";
 import { GiSprint } from "react-icons/gi";
 import { IoLogoNodejs } from "react-icons/io5";
+import mushroomsImage from "../assets/mushrooms.png";
+import valentineImage from "../assets/valentine.png";
+import paralaxImage from "../assets/paralax.png";
+import portfolio1Image from "../assets/portfolio1.png";
+import memoryImage from "../assets/memory-card.png";
+import taskImage from "../assets/task.png";
+import adminImage from "../assets/admin.png";
+
+export const projects = [
+  {
+    title: "five shrooms",
+    image: mushroomsImage,
+    link: "https://shrooms.vercel.app/",
+    description: "tic-tac-toe with a twist",
+  },
+  {
+    title: "food coma",
+    image: memoryImage,
+    link: "https://the-odin-project-mu.vercel.app/",
+    description: "learning react",
+  },
+  {
+    title: "be my valentine",
+    image: valentineImage,
+    link: "https://jakuzzibubbles.github.io/be-my-valentine/",
+    description: "a message for your date",
+  },
+  {
+    title: "portfolio paralax",
+    image: paralaxImage,
+    link: "https://portfolio-linh.vercel.app/",
+    description: "experimenting with threejs",
+  },
+  {
+    title: "portfolio react",
+    image: portfolio1Image,
+    link: "https://jakuzzibubbles-portfolio.vercel.app/",
+    description: "built using react and tailwindcss",
+  },
+  {
+    title: "collecting ideas",
+    image: taskImage,
+    link: "https://jakuzzibubbles.github.io/taskmanager/",
+    description: "just another to-do list",
+  },
+  {
+    title: "admin dashboard",
+    image: adminImage,
+    link: "https://jakuzzibubbles.github.io/admin-dashboard/",
+    description: "making friends with html and css",
+  },
+];
 
 export const SKILLS = [
   {
@@ -119,32 +171,33 @@ export const SKILLS = [
     id: "10",
     type: "achievements",
     title: "Improved Task Timelines",
-    icon: FaTrophy,
-    description: "Improved task timelines by 15% in web portal development.",
+    icon: "FaTrophy",
+    description:
+      "Reduced task completion timelines by 15% for a public institution web portal by implementing Agile methodologies and optimizing team workflows, ensuring timely project delivery.",
   },
   {
     id: "11",
     type: "achievements",
     title: "Increased Team Productivity",
-    icon: FaTrophy,
+    icon: "FaTrophy",
     description:
-      "Increased team productivity by 25% through structured stand-ups.",
+      "Boosted team productivity by 25% by introducing daily stand-ups and task boards, improving task visibility and accountability across cross-functional teams.",
   },
   {
     id: "12",
     type: "achievements",
     title: "Generated High-Quality Leads",
-    icon: FaTrophy,
+    icon: "FaTrophy",
     description:
-      "Generated high-quality leads securing market presence for Matok V'Kal Ltd.",
+      "Identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region.",
   },
   {
     id: "13",
     type: "achievements",
     title: "Integrated Tools and Enhanced Workflows",
-    icon: FaTrophy,
+    icon: "FaTrophy",
     description:
-      "Integrated tools and enhanced workflows for PR and marketing at XWECAN.",
+      "Streamlined PR and marketing workflows by integrating tools like JIRA and Asana, reducing task redundancy and improving cross-team collaboration by 20%.",
   },
   {
     id: "14",
@@ -152,28 +205,31 @@ export const SKILLS = [
     title: "Digital Project Management",
     icon: FaLaptopCode,
     description:
-      "Guiding projects to success while keeping the team engaged and motivated.",
+      "Guiding projects to success while keeping the team engaged and motivated. Proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. Skilled in Agile and Scrum methodologies, ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
   },
   {
     id: "15",
     type: "skills",
     title: "AWS Cloud Practitioner",
     icon: FaCertificate,
-    description: "AWS Certified Cloud Practitioner (July 2024)",
+    description:
+      "AWS Certified Cloud Practitioner (July 2024) with hands-on experience in deploying and managing cloud infrastructure on AWS. Fluency in core AWS services, including EC2, S3, and IAM, enabling scalable and secure cloud solutions for businesses.",
   },
   {
     id: "16",
     type: "skills",
     title: "Linux Essentials",
     icon: FaCertificate,
-    description: "Linux Professional Institute - LPI (January 2024)",
+    description:
+      "Linux Professional Institute - LPI (January 2024). Certified in Linux Essentials with practical knowledge of Linux systems, including Ubuntu. Skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
   },
   {
     id: "17",
     type: "skills",
     title: "Scrum Master",
     icon: GiSprint,
-    description: "Project Management with Scrum - IBB (November 2021)",
+    description:
+      "Project Management with Scrum - IBB (November 2021) with expertise in facilitating Agile teams, removing impediments, and ensuring smooth sprint cycles. Proven track record of improving team productivity by 25% through effective Scrum practices and stakeholder communication.",
   },
   {
     id: "18",

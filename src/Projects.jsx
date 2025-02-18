@@ -4,58 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import { FreeMode } from "swiper/modules";
-import mushroomsImage from "./assets/mushrooms.png";
-import valentineImage from "./assets/valentine.png";
-import paralaxImage from "./assets/paralax.png";
-import portfolio1Image from "./assets/portfolio1.png";
-import memoryImage from "./assets/memory-card.png";
-import taskImage from "./assets/task.png";
-import adminImage from "./assets/admin.png";
-
-const projects = [
-  {
-    title: "five shrooms",
-    image: mushroomsImage,
-    link: "https://shrooms.vercel.app/",
-    description: "tic-tac-toe with a twist",
-  },
-  {
-    title: "food coma",
-    image: memoryImage,
-    link: "https://the-odin-project-mu.vercel.app/",
-    description: "learning react",
-  },
-  {
-    title: "be my valentine",
-    image: valentineImage,
-    link: "https://jakuzzibubbles.github.io/be-my-valentine/",
-    description: "a message for your date",
-  },
-  {
-    title: "portfolio paralax",
-    image: paralaxImage,
-    link: "https://portfolio-linh.vercel.app/",
-    description: "experimenting with threejs",
-  },
-  {
-    title: "portfolio react",
-    image: portfolio1Image,
-    link: "https://jakuzzibubbles-portfolio.vercel.app/",
-    description: "built using react and tailwindcss",
-  },
-  {
-    title: "collecting ideas",
-    image: taskImage,
-    link: "https://jakuzzibubbles.github.io/taskmanager/",
-    description: "just another to-do list",
-  },
-  {
-    title: "admin dashboard",
-    image: adminImage,
-    link: "https://jakuzzibubbles.github.io/admin-dashboard/",
-    description: "making friends with html and css",
-  },
-];
+import { projects } from "./utils/data";
 
 const Projects = () => {
 
