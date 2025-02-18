@@ -5,6 +5,7 @@ import {
   FaCertificate,
   FaCode,
   FaCloud,
+  FaTools,
   FaTerminal,
 } from "react-icons/fa";
 import {
@@ -171,7 +172,7 @@ export const SKILLS = [
     id: "10",
     type: "achievements",
     title: "Improved Task Timelines",
-    icon: "FaTrophy",
+    icon: FaTrophy,
     description:
       "Reduced task completion timelines by 15% for a public institution web portal by implementing Agile methodologies and optimizing team workflows, ensuring timely project delivery.",
   },
@@ -179,7 +180,7 @@ export const SKILLS = [
     id: "11",
     type: "achievements",
     title: "Increased Team Productivity",
-    icon: "FaTrophy",
+    icon: FaTrophy,
     description:
       "Boosted team productivity by 25% by introducing daily stand-ups and task boards, improving task visibility and accountability across cross-functional teams.",
   },
@@ -187,7 +188,7 @@ export const SKILLS = [
     id: "12",
     type: "achievements",
     title: "Generated High-Quality Leads",
-    icon: "FaTrophy",
+    icon: FaTrophy,
     description:
       "Identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region.",
   },
@@ -195,7 +196,7 @@ export const SKILLS = [
     id: "13",
     type: "achievements",
     title: "Integrated Tools and Enhanced Workflows",
-    icon: "FaTrophy",
+    icon: FaTrophy,
     description:
       "Streamlined PR and marketing workflows by integrating tools like JIRA and Asana, reducing task redundancy and improving cross-team collaboration by 20%.",
   },
