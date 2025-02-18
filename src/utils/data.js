@@ -266,7 +266,7 @@ export const SKILLS = [
   {
     id: "22",
     type: "technologies",
-    title: "HTML5 & CSS3",
+    title: "HTML5",
     icon: SiHtml5,
     description:
       "Building structured, semantic markup for modern web applications.",
@@ -274,7 +274,7 @@ export const SKILLS = [
   {
     id: "23",
     type: "technologies",
-    title: "",
+    title: "CSS3",
     icon: SiCss3,
     description:
       "Styling web applications with modern CSS features and animations.",
