@@ -12,14 +12,14 @@ import {
   SiReact,
   SiMongodb,
   SiExpress,
-  SiHtml5,
-  SiCss3,
   SiTailwindcss,
   SiGit,
   SiPostman,
   SiJirasoftware,
   SiAsana,
   SiUbuntu,
+  SiCss3,
+  SiHtml5,
 } from "react-icons/si";
 import { GiSprint, GiInfinity } from "react-icons/gi";
 import { IoLogoNodejs } from "react-icons/io5";
@@ -80,279 +80,284 @@ export const SKILLS = [
   {
     id: "01",
     type: "experience",
-    title: "Web Designer & Developer",
+    title: "web designer & developer",
     icon: FaBriefcase,
     description: `
-      Naturheilpraxis Daniel Brunner (Oct 2024 - Dec 2024 | Freelance): 
-      Designed and developed a user-friendly website layout using Website Builder tools, reflecting the client’s brand identity and values. Customized page structures and navigation for seamless usability and accessibility. Edited and optimized images to enhance visual appeal and improve website performance. Implemented SEO strategies to increase organic traffic.
+      Naturheilpraxis Daniel Brunner (Oct 2024 - Dec 2024 | freelance): 
+      designed and developed a user-friendly website layout using website builder tools, reflecting the client’s brand identity and values. customized page structures and navigation for seamless usability and accessibility. edited and optimized images to enhance visual appeal and improve website performance. implemented SEO strategies to increase organic traffic.
     `,
   },
   {
     id: "02",
     type: "experience",
-    title: "IT Project Assistant",
+    title: "it project assistant",
     icon: FaBriefcase,
     description: `
-      dreistrom.land AG (Apr 2023 - Jun 2023 | Freelance): 
-      Worked closely with application engineers to streamline and optimize task completion timelines. Supported agile web portal development for public institutions, improving task timelines by 15%. Collaborated with product owners and stakeholders to enhance communication and align project goals.
+      dreistrom.land AG (Apr 2023 - Jun 2023 | freelance): 
+      worked closely with application engineers to streamline and optimize task completion timelines. supported agile web portal development for public institutions, improving task timelines by 13%. collaborated with product owners and stakeholders to enhance communication and align project goals.
     `,
   },
   {
     id: "03",
     type: "experience",
-    title: "Online Project Manager",
+    title: "online project manager",
     icon: FaBriefcase,
     description: `
       xtraz digital UG (Jul 2022 - Sep 2022 | Freelance): 
-      Introduced daily team stand-ups and specialized task boards, increasing team productivity by 25%. Facilitated stakeholder communication to ensure alignment with deliverables and timelines.
+      introduced daily team stand-ups and specialized task boards, increasing team productivity by 25%. facilitated stakeholder communication to ensure alignment with deliverables and timelines.
     `,
   },
   {
     id: "04",
     type: "experience",
-    title: "Business Development DACH",
+    title: "business development",
     icon: FaBriefcase,
     description: `
       Matok V'Kal Ltd (Jun 2022 - Nov 2022 | Freelance): 
-      Conducted comprehensive competitive analyses to identify market opportunities and understand the confectionery industry landscape in the DACH region. Generated high-quality leads through targeted outreach and networking, securing the company’s market presence. Facilitated meetings with key decision-makers, aligning with company objectives and driving business growth.
+      conducted comprehensive competitive analyses to identify market opportunities and understand the confectionery industry landscape in the DACH region. generated high-quality leads through targeted outreach and networking, securing the company’s market presence. facilitated meetings with key decision-makers, aligning with company objectives and driving business growth.
     `,
   },
   {
     id: "05",
     type: "experience",
-    title: "Operations DACH",
+    title: "operations",
     icon: FaBriefcase,
     description: `
       XWECAN (Dec 2021 - May 2022 | Freelance): 
-      Worked closely with the DACH account team and CEO, facilitating cross-team communication to ensure seamless workflows. Supported the team with data-driven content creation, contributing to PR and marketing efforts. Responsible for tools, tool integrations, and onboarding new members on the technical side.
+      worked closely with the DACH account team and CEO, facilitating cross-team communication to ensure seamless workflows. supported the team with data-driven content creation, contributing to PR and marketing efforts. responsible for tools, tool integrations, and onboarding new members on the technical side.
     `,
   },
   {
     id: "06",
     type: "experience",
-    title: "Sales Manager",
+    title: "sales manager",
     icon: FaBriefcase,
     description: `
       Zeitgold GmbH (Aug 2019 - Feb 2020 | Fulltime): 
-      Managed sales operations, driving revenue growth and customer acquisition. Developed and implemented sales strategies to meet company targets.
+      managed sales operations, driving revenue growth and customer acquisition. developed and implemented sales strategies to meet company targets.
     `,
   },
   {
     id: "07",
     type: "experience",
-    title: "Event Manager",
+    title: "event manager",
     icon: FaBriefcase,
     description: `
       Gast Art Restaurations GmbH (Sep 2016 - Jul 2019 | Fulltime): 
-      Planned and executed events, ensuring smooth operations and client satisfaction. Coordinated with vendors, managed budgets, and oversaw event logistics.
+      planned and executed events, ensuring smooth operations and client satisfaction. coordinated with vendors, managed budgets, and oversaw event logistics.
     `,
   },
   {
     id: "08",
     type: "experience",
-    title: "Archivist/Project Manager",
+    title: "archivist/project manager",
     icon: FaBriefcase,
     description: `
       CFA Berlin (Sep 2013 - Aug 2016 | Fulltime): 
-      Managed archival projects, ensuring accurate documentation and preservation of historical records. Coordinated with teams to meet project deadlines and deliverables.
+      managed archival projects, ensuring accurate documentation and preservation of historical records. coordinated with teams to meet project deadlines and deliverables.
     `,
   },
   {
     id: "09",
     type: "experience",
-    title: "Gallery Assistant",
+    title: "gallery assistant",
     icon: FaBriefcase,
     description: `
       ALEXANDER OCHS PRIVATE (Beijing assignment) (Jul 2012 - Aug 2013 | Fulltime): 
-      Supported gallery operations, including exhibition setup, client relations, and administrative tasks. Assisted in the coordination of international art exhibitions.
+      supported gallery operations, including exhibition setup, client relations, and administrative tasks. assisted in the coordination of international art exhibitions.
     `,
   },
   {
     id: "10",
     type: "achievements",
-    title: "Improved Task Timelines",
+    title: "improved task timelines",
     icon: GiInfinity,
     description:
-      "Reduced task completion timelines by 15% for a public institution web portal by implementing Agile methodologies and optimizing team workflows, ensuring timely project delivery.",
+      "reduced task completion timelines by 15% for a public institution web portal by implementing agile methodologies and optimizing team workflows. this involved breaking down tasks into smaller, manageable sprints, improving communication between teams, and using tools like JIRA to track progress. the result was faster delivery of features and improved client satisfaction.",
   },
   {
     id: "11",
     type: "achievements",
-    title: "Increased Team Productivity",
+    title: "increased team productivity",
     icon: GiInfinity,
     description:
-      "Boosted team productivity by 25% by introducing daily stand-ups and task boards, improving task visibility and accountability across cross-functional teams.",
+      "boosted team productivity by 25% by introducing daily stand-ups and task boards, improving task visibility and accountability across cross-functional teams. this structured approach helped identify bottlenecks early, streamline workflows, and ensure alignment on project goals. as a result, the team delivered projects faster and with fewer errors.",
   },
   {
     id: "12",
     type: "achievements",
-    title: "Generated High-Quality Leads",
+    title: "generated high-quality leads",
     icon: GiInfinity,
     description:
-      "Identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region.",
+      "identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region. this involved researching industry trends, identifying key decision-makers, and crafting personalized outreach strategies. the campaign resulted in a 20% increase in sales pipeline and strengthened the company’s market position.",
   },
   {
     id: "13",
     type: "achievements",
-    title: "Integrated Tools and Enhanced Workflows",
+    title: "integrated tools and enhanced workflows",
     icon: GiInfinity,
     description:
-      "Streamlined PR and marketing workflows by integrating tools like JIRA and Asana, reducing task redundancy and improving cross-team collaboration by 20%.",
+      "streamlined PR and marketing workflows by integrating tools like asana, reducing task redundancy and improving cross-team collaboration. this involved mapping out existing processes, identifying inefficiencies, and implementing automation where possible. the result was faster campaign execution and improved alignment between teams.",
   },
   {
     id: "14",
     type: "skills",
-    title: "Digital Project Management",
+    title: "digital project management",
     icon: FaLaptopCode,
     description:
-      "Guiding projects to success while keeping the team engaged and motivated. Proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. Skilled in Agile and Scrum methodologies, ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
+      "guiding projects to success while keeping the team engaged and motivated. proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. skilled in Agile and Scrum methodologies, ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
   },
   {
     id: "15",
     type: "skills",
-    title: "AWS Cloud Practitioner",
+    title: "aws cloud practitioner",
     icon: FaAws,
     description:
-      "AWS Certified Cloud Practitioner (July 2024) with hands-on experience in deploying and managing cloud infrastructure on AWS. Fluency in core AWS services, including EC2, S3, and IAM, enabling scalable and secure cloud solutions for businesses.",
+      "aws certified cloud practitioner (july 2024) with hands-on experience in deploying and managing cloud infrastructure on aws. fluency in core services, including ec2, s3, and iam, enabling scalable and secure cloud solutions for businesses.",
   },
   {
     id: "16",
     type: "skills",
-    title: "Linux Essentials",
+    title: "linux essentials",
     icon: FaTools,
     description:
-      "Linux Professional Institute - LPI (January 2024). Certified in Linux Essentials with practical knowledge of Linux systems, including Ubuntu. Skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
+      "Linux Professional Institute - LPI (January 2024). certified in linux essentials with practical knowledge of linux systems, including ubuntu. skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
   },
   {
     id: "17",
     type: "skills",
-    title: "Scrum Master",
+    title: "scrum master",
     icon: GiSprint,
     description:
-      "Project Management with Scrum - IBB (November 2021) with expertise in facilitating Agile teams, removing impediments, and ensuring smooth sprint cycles. Proven track record of improving team productivity by 25% through effective Scrum practices and stakeholder communication.",
+      "project management with scrum - IBB (november 2021) with expertise in facilitating agile teams, removing impediments, and ensuring smooth sprint cycles. proven track record of improving team productivity by 25% through effective scrum practices and stakeholder communication.",
   },
   {
     id: "18",
     type: "technologies",
-    title: "JavaScript",
+    title: "javaScript",
     icon: SiJavascript,
     description:
-      "Mastering JavaScript—transforming ideas into interactive, dynamic features!",
+      "modern web development, powering interactive and dynamic features on websites. still getting the hang of it, but already making buttons do more than just sit there!",
   },
   {
     id: "19",
     type: "technologies",
-    title: "React",
+    title: "react",
     icon: SiReact,
     description:
-      "Building interactive UIs that keep users engaged—like a good book!",
+      "powerful library for building user interfaces, enabling reusable components and efficient rendering. building UIs one component at a time—because who doesn’t love a good reusable piece of code?",
   },
   {
     id: "20",
     type: "technologies",
-    title: "Node.js",
+    title: "node.js",
     icon: IoLogoNodejs,
     description:
-      "Creating efficient backends that handle requests with ease and speed!",
+      "node.js allows developers to build scalable and efficient server-side applications using javaScript. a way to use javaScript on the backend without feeling guilty about it.",
   },
   {
     id: "21",
     type: "technologies",
-    title: "MongoDB",
+    title: "mongodb",
     icon: SiMongodb,
     description:
-      "Managing data like a pro—keeping everything organized and efficient!",
+      "noSQL database that stores data in flexible, JSON-like documents, making it ideal for modern applications. where all my data lives—organized, flexible, and always ready for a quick query.",
   },
   {
     id: "22",
     type: "technologies",
-    title: "HTML5",
+    title: "html",
     icon: SiHtml5,
     description:
-      "Building structured, semantic markup for modern web applications.",
+      "html provides the structure for modern web applications, with support for multimedia and semantic elements. the skeleton of every website.",
   },
   {
     id: "23",
     type: "technologies",
-    title: "CSS3",
+    title: "css",
     icon: SiCss3,
     description:
-      "Styling web applications with modern CSS features and animations.",
+      "css brings style to the web with advanced features like animations, transitions, and responsive design. like when a lady puts makeup on her face.",
   },
   {
     id: "24",
     type: "technologies",
-    title: "Tailwind CSS",
+    title: "tailwind css",
     icon: SiTailwindcss,
     description:
-      "Building UI components with ease—using utility-first CSS framework.",
+      "tailwind css is a utility-first css framework that speeds up ui development with pre-designed classes. the cheat code for styling—my superhero!",
   },
   {
     id: "25",
     type: "technologies",
-    title: "Git & GitHub",
+    title: "git & gitHub",
     icon: SiGit,
     description:
-      "Version control and collaborative development using Git and GitHub.",
+      "git is a version control system that tracks changes in code, while gitHub is a platform for collaboration and code sharing. where I save my code and my sanity—one commit at a time.",
   },
   {
     id: "26",
     type: "technologies",
-    title: "VS Code",
+    title: "VS code",
     icon: FaTerminal,
-    description: "Primary IDE for efficient code development and debugging.",
+    description:
+      "my all-time-favourite code editor with built-in support for debugging, extensions, and git integration. my coding playground - where bugs come to die - eventually.",
   },
   {
     id: "27",
     type: "technologies",
-    title: "Postman",
+    title: "postman",
     icon: SiPostman,
-    description: "API testing and documentation tool for backend development.",
+    description:
+      "testing APIs, making it easier to debug and document backend services. the only mail I enjoy delivering—API requests, on time and error-free.",
   },
   {
     id: "28",
     type: "technologies",
-    title: "JIRA",
+    title: "jira",
     icon: SiJirasoftware,
-    description: "Project management and issue tracking for agile development.",
+    description:
+      "project management and issue tracking for agile development and teams, helping track issues, sprints, and workflows. where tasks go to get organized—because even projects need a to-do list.",
   },
   {
     id: "29",
     type: "technologies",
-    title: "Asana",
+    title: "asana",
     icon: SiAsana,
-    description: "Task management and team collaboration platform.",
+    description:
+      "Task management and team collaboration platform. The ultimate checklist for keeping projects on track.",
   },
   {
     id: "30",
     type: "technologies",
-    title: "Testing",
+    title: "testing",
     icon: FaCode,
     description:
-      "Writing and maintaining unit tests for code reliability. Implementing and analyzing A/B tests for feature optimization. Ensuring different parts of the application work together seamlessly.",
+      "writing and maintaining unit tests for code reliability. implementing and analyzing a/b tests for feature optimization. ensuring different parts of the application work together seamlessly.",
   },
   {
     id: "31",
     type: "technologies",
-    title: "Linux/Ubuntu",
+    title: "linux/ubuntu",
     icon: SiUbuntu,
     description:
-      "Working with Linux systems, particularly Ubuntu distribution.",
+      "linux is an open-source operating system, and ubuntu is one of its most popular distributions, known for its ease of use and stability. where I feel like a hacker 🥷",
   },
   {
     id: "32",
     type: "technologies",
-    title: "Cloud Services",
+    title: "cloud services",
     icon: FaCloud,
-    description: "Working with AWS and GCP cloud platforms and services.",
+    description:
+      "Working with aws and gpc cloud platforms and services, that provide scalable infrastructure, storage, and computing power. Wwere my data lives—safe, scalable, and always ready for action.",
   },
   {
     id: "33",
-    title: "Express",
+    title: "express",
     type: "technologies",
     icon: SiExpress,
     description:
-      "Building powerful web servers that deliver smooth, real-time experiences!",
+      "building powerful web servers that deliver smooth, real-time experiences! minimal and flexible Node.js web application framework, designed for building APIs and web applications.",
   },
 ];
 
