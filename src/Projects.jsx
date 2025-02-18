@@ -83,7 +83,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <SwiperSlide
             key={index}
-            className="border-2 border-slate-400 shadow-lg bg-yellow-700 flex flex-col items-center rounded-2xl"
+            className="border-2 shadow-lg bg-gradient-to-br from-yellow-400 to-yellow-700 flex flex-col items-center rounded-2xl"
           >
             <a
               href={project.link}

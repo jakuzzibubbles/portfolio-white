@@ -4,7 +4,6 @@ import {
   FaLaptopCode,
   FaCertificate,
   FaCode,
-  FaTools,
   FaCloud,
   FaTerminal,
 } from "react-icons/fa";

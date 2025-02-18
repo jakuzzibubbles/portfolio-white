@@ -25,9 +25,9 @@ const Tabs = () => {
           <button
             key={tab.value}
             onClick={() => setActiveTab(tab.value)}
-            className={`px-4 py-2 border rounded-full ${
+            className={`px-4 py-2 border-2 rounded-full ${
               activeTab === tab.value
-                ? "bg-yellow-900 text-white font-semibold"
+                ? "bg-gradient-to-b from-yellow-400 to-yellow-700 text-white font-semibold"
                 : "text-yellow-800 font-semibold"
             }`}
           >
@@ -49,13 +49,18 @@ const Tabs = () => {
               className="mb-4 p-4 flex flex-col items-center mx-auto text-center"
               onClick={() => handleSkillClick(skill.type)}
             >
-              <p className="font-semibold cursor-pointer" onClick={() => handleSkillClick(skill.type)}>
+              <p
+                className="font-semibold cursor-pointer"
+                onClick={() => handleSkillClick(skill.type)}
+              >
                 {skill.title}
               </p>
               <skill.icon
                 size={30}
                 className={`text-yellow-800 sm:size-24 my-2 cursor-pointer ${
-                  activeTab === "all" ? "hover:scale-125 transition-transform duration-200" : ""
+                  activeTab === "all"
+                    ? "hover:scale-125 transition-transform duration-200"
+                    : ""
                 }`}
                 onClick={() => handleSkillClick(skill.type)}
               />
