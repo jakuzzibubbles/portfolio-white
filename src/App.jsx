@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import Hero from "./Hero";
 import Projects from "./Projects";
+import About from "./About";
 import LoadingScreen from "./Loading";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
 
       <Hero />
       <Projects />
+      <About />
       <footer className="text-black text-center py-4 mt-8">
         {/* <a
           href="./Linh Nguyen Resume.pdf"

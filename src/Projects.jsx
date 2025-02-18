@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { Navigation } from "swiper/modules";
-import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -65,11 +64,7 @@ const Projects = () => {
   return (
     <div className="container mx-auto px-6 py-12 mt-24 bg-transparent">
       <h1 className="text-3xl text-black text-center mb-12 flex items-center justify-center gap-2 flex-wrap">
-        my personal collection of digital experiences made with 🩷 &
-        <FaReact size={30} className="text-blue-950 sm:size-24" />
-        <FaHtml5 size={30} className="text-orange-600 sm:size-24" />
-        <FaCss3Alt size={30} className="text-blue-500 sm:size-24" />
-        <FaJsSquare size={30} className="text-yellow-500 sm:size-24" />
+        my personal collection of digital experiences made with 🩷
       </h1>
 
       <Swiper
@@ -88,7 +83,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <SwiperSlide
             key={index}
-            className="border-2 border-slate-400 shadow-lg bg-slate-700 flex flex-col items-center rounded-2xl"
+            className="border-2 border-slate-400 shadow-lg bg-yellow-700 flex flex-col items-center rounded-2xl"
           >
             <a
               href={project.link}
