@@ -45,7 +45,7 @@ function App() {
         >
           view resume
         </a> */}
-        <p className="mt-8">&copy; 2025 Linh Nguyen. All rights reserved.</p>
+        <p className="mt-8">&copy; 2025 Linh Nguyen.</p>
       </footer>
     </div>
   );
