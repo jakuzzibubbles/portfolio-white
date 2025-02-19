@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <div className="container mx-auto px-6 py-12 mt-24 bg-transparent">
       <h1 className="text-3xl text-black text-center mb-12 flex items-center justify-center gap-2 flex-wrap">
-        my personal collection of digital experiences made with 🩷
+        my personal collection of digital experiences made with 💛
       </h1>
       
       <Swiper
