@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import React from "react";
-import Hero from "./Hero";
-import Projects from "./Projects";
-import About from "./About";
-import LoadingScreen from "./Loading";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import LoadingScreen from "./components/Loading";
 
 function App() {
   const [loading, setLoading] = useState(true);

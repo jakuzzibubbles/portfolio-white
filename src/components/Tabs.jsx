@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SKILLS, SKILLS_TABS } from "./utils/data";
+import { SKILLS, SKILLS_TABS } from "../utils/data";
 
 // to shuffle an array
 const shuffleArray = (array) => {

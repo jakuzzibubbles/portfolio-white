@@ -95,7 +95,7 @@ export const SKILLS = [
     title: "webdesign & developement",
     icon: FaBriefcase,
     description: `
-      Naturheilpraxis Daniel Brunner (Oct 2024 - Dec 2024 | freelance): 
+      Naturheilpraxis Daniel Brunner (oct 2024 - dec 2024 | freelance): 
       designed and developed a user-friendly website layout using website builder tools, reflecting the client’s brand identity and values. customized page structures and navigation for seamless usability and accessibility. edited and optimized images to enhance visual appeal and improve website performance. implemented SEO strategies to increase organic traffic.
     `,
   },
@@ -105,7 +105,7 @@ export const SKILLS = [
     title: "it project assistant",
     icon: FaBriefcase,
     description: `
-      dreistrom.land AG (Apr 2023 - Jun 2023 | freelance): 
+      dreistrom.land AG (apr 2023 - jun 2023 | freelance): 
       worked closely with application engineers to streamline and optimize task completion timelines. supported agile web portal development for public institutions, improving task timelines by 13%. collaborated with product owners and stakeholders to enhance communication and align project goals.
     `,
   },
@@ -115,7 +115,7 @@ export const SKILLS = [
     title: "online project manager",
     icon: FaBriefcase,
     description: `
-      xtraz digital UG (Jul 2022 - Sep 2022 | Freelance): 
+      xtraz digital UG (jul 2022 - sep 2022 | freelance): 
       introduced daily team stand-ups, increasing team productivity by 25% by adding automation in task boards. facilitated stakeholder communication to ensure alignment with deliverables and timelines.
     `,
   },
@@ -125,7 +125,7 @@ export const SKILLS = [
     title: "business development",
     icon: FaBriefcase,
     description: `
-      Matok V'Kal Ltd (Jun 2022 - Nov 2022 | Freelance): 
+      Matok V'Kal Ltd (jun 2022 - nov 2022 | freelance): 
       conducted comprehensive competitive analyses to identify market opportunities and understand the confectionery industry landscape in the DACH region. generated high-quality leads through targeted outreach and networking, securing the company’s market presence. facilitated meetings with key decision-makers, aligning with company objectives and driving business growth.
     `,
   },
@@ -135,7 +135,7 @@ export const SKILLS = [
     title: "operations",
     icon: FaBriefcase,
     description: `
-      XWECAN (Dec 2021 - May 2022 | Freelance): 
+      XWECAN (dec 2021 - may 2022 | freelance): 
       worked closely with the DACH account team and CEO, facilitating cross-team communication to ensure seamless workflows. supported the team with data-driven content creation, contributing to PR and marketing efforts. responsible for tools, tool integrations, and onboarding new members on the technical side.
     `,
   },
@@ -145,7 +145,7 @@ export const SKILLS = [
     title: "sales manager",
     icon: FaBuilding,
     description: `
-      Zeitgold GmbH (Aug 2019 - Feb 2020 | Fulltime): 
+      Zeitgold GmbH (aug 2019 - feb 2020 | fulltime): 
       managed sales operations, driving revenue growth and customer acquisition. developed and implemented sales strategies to meet company targets.
     `,
   },
@@ -155,7 +155,7 @@ export const SKILLS = [
     title: "event manager",
     icon: FaBuilding,
     description: `
-      Gast Art Restaurations GmbH (Sep 2016 - Jul 2019 | Fulltime): 
+      Gast Art Restaurations GmbH (sep 2016 - jul 2019 | fulltime): 
       planned and executed events, ensuring smooth operations and client satisfaction. coordinated with vendors, managed budgets, and oversaw event logistics.
     `,
   },
@@ -165,7 +165,7 @@ export const SKILLS = [
     title: "archivist/project manager",
     icon: FaBuilding,
     description: `
-      CFA Berlin (Sep 2013 - Aug 2016 | Fulltime): 
+      CFA Berlin (sep 2013 - aug 2016 | fulltime): 
       managed archival projects, ensuring accurate documentation and preservation of historical records. coordinated with teams to meet project deadlines and deliverables.
     `,
   },
@@ -175,7 +175,7 @@ export const SKILLS = [
     title: "gallery assistant",
     icon: FaBuilding,
     description: `
-      ALEXANDER OCHS PRIVATE (Beijing assignment) (Jul 2012 - Aug 2013 | Fulltime): 
+      ALEXANDER OCHS PRIVATE (beijing assignment) (jul 2012 - aug 2013 | fulltime): 
       supported gallery operations, including exhibition setup, client relations, and administrative tasks. assisted in the coordination of international art exhibitions.
     `,
   },
