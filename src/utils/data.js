@@ -205,7 +205,7 @@ export const SKILLS = [
     title: "digital project management",
     icon: FaLaptopCode,
     description:
-      "guiding projects to success while keeping the team engaged and motivated. proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. skilled in Agile and Scrum methodologies, ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
+      "guiding projects to success while keeping the team engaged and motivated. proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. skilled in agile methodologies and scrum , ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
   },
   {
     id: "15",
@@ -298,7 +298,7 @@ export const SKILLS = [
   {
     id: "26",
     type: "technologies",
-    title: "VS code",
+    title: "vs code",
     icon: FaTerminal,
     description:
       "my all-time-favourite code editor with built-in support for debugging, extensions, and git integration. my coding playground - where bugs come to die - eventually.",
