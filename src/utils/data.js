@@ -104,7 +104,7 @@ export const SKILLS = [
     icon: FaBriefcase,
     description: `
       xtraz digital UG (Jul 2022 - Sep 2022 | Freelance): 
-      introduced daily team stand-ups and specialized task boards, increasing team productivity by 25%. facilitated stakeholder communication to ensure alignment with deliverables and timelines.
+      introduced daily team stand-ups, increasing team productivity by 25% by adding automation in task boards. facilitated stakeholder communication to ensure alignment with deliverables and timelines.
     `,
   },
   {
