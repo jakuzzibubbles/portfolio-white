@@ -25,7 +25,7 @@ const Tabs = () => {
           <button
             key={tab.value}
             onClick={() => setActiveTab(tab.value)}
-            className={`px-4 py-2 border-2 rounded-full ${
+            className={`px-4 py-2 border-2 border-yellow-900 rounded-full ${
               activeTab === tab.value
                 ? "bg-gradient-to-b from-yellow-400 to-yellow-700 text-white font-semibold"
                 : "text-yellow-800 font-semibold"

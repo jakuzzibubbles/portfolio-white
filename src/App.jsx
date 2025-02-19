@@ -47,7 +47,7 @@ function App() {
         >
           view resume
         </a> */}
-        <p className="mt-8">&copy; 2025 Linh Nguyen</p>
+        <p className="mt-8">&copy; 2025 linh nguyen</p>
       </footer>
     </div>
   );

@@ -35,6 +35,7 @@ import portfolio1Image from "../assets/portfolio1.png";
 import memoryImage from "../assets/memory-card.png";
 import taskImage from "../assets/task.png";
 import adminImage from "../assets/admin.png";
+import brunnerImage from "../assets/brunner.png";
 
 export const projects = [
   {
@@ -54,6 +55,12 @@ export const projects = [
     image: valentineImage,
     link: "https://jakuzzibubbles.github.io/be-my-valentine/",
     description: "a message for your date",
+  },
+  {
+    title: "webdesign&development",
+    image: brunnerImage,
+    link: "https://www.hp-brunner.de/",
+    description: "more jobs like this please",
   },
   {
     title: "portfolio paralax",
@@ -218,7 +225,7 @@ export const SKILLS = [
     title: "aws cloud practitioner",
     icon: FaAws,
     description:
-      "aws certified cloud practitioner (july 2024) with hands-on experience in deploying and managing cloud infrastructure on aws. fluency in core services, including ec2, s3, and iam, enabling scalable and secure cloud solutions for businesses.",
+      "aws certified cloud practitioner (july 2024), with hands-on experience in deploying and managing cloud infrastructure on aws. fluency in core services, including ec2, s3, and iam, enabling scalable and secure cloud solutions for businesses.",
   },
   {
     id: "16",
@@ -231,10 +238,10 @@ export const SKILLS = [
   {
     id: "17",
     type: "skills",
-    title: "scrum master",
+    title: "agile exlorer",
     icon: GiSprint,
     description:
-      "project management with scrum - IBB (november 2021) with expertise in facilitating agile teams, removing impediments, and ensuring smooth sprint cycles. proven track record of improving team productivity by 25% through effective scrum practices and stakeholder communication.",
+      "project management with scrum - IBB (november 2021), with expertise in facilitating agile teams, removing impediments, and ensuring smooth sprint cycles. proven track record of improving team productivity by 25% through effective scrum practices and stakeholder communication.",
   },
   {
     id: "18",

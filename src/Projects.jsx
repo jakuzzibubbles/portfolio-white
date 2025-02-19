@@ -32,7 +32,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <SwiperSlide
             key={index}
-            className="border-2 shadow-lg bg-gradient-to-br from-yellow-400 to-yellow-700 flex flex-col items-center rounded-2xl"
+            className="border-2 border-yellow-900 shadow-lg bg-gradient-to-br from-yellow-400 to-yellow-700 flex flex-col items-center rounded-2xl"
           >
             <a
               href={project.link}
@@ -56,13 +56,13 @@ const Projects = () => {
       <div className="flex justify-center items-center gap-8 mt-6">
         <button
           onClick={() => swiperRef.current.swiper.slidePrev()}
-          className="bg-transparent text-slate-600/80 text-2xl p-3 rounded-full shadow-lg transform transition-transform hover:scale-150 border-2"
+          className="bg-transparent text-yellow-600/80 text-2xl p-3 rounded-full shadow-lg transform transition-transform hover:scale-150 border-2 border-yellow-900"
         >
           ❮
         </button>
         <button
           onClick={() => swiperRef.current.swiper.slideNext()}
-          className="bg-transparent text-slate-600/80 text-2xl p-3 rounded-full shadow-lg transform transition-transform hover:scale-150 border-2"
+          className="bg-transparent text-yellow-600/80 text-2xl p-3 rounded-full shadow-lg transform transition-transform hover:scale-150 border-2 border-yellow-900"
         >
           ❯
         </button>
