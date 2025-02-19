@@ -21,7 +21,6 @@ import {
   SiGit,
   SiPostman,
   SiJirasoftware,
-  SiAsana,
   SiUbuntu,
   SiCss3,
   SiHtml5,
@@ -246,7 +245,7 @@ export const SKILLS = [
   {
     id: "18",
     type: "technologies",
-    title: "javaScript",
+    title: "javascript",
     icon: SiJavascript,
     description:
       "modern web development, powering interactive and dynamic features on websites. still getting the hang of it, but already making buttons do more than just sit there!",
@@ -257,7 +256,7 @@ export const SKILLS = [
     title: "react",
     icon: SiReact,
     description:
-      "powerful library for building user interfaces, enabling reusable components and efficient rendering. building UIs one component at a time—because who doesn’t love a good reusable piece of code?",
+      "powerful library for building user interfaces, enabling reusable components and efficient rendering. building UIs one component at a time — because who doesn’t love a good reusable piece of code?",
   },
   {
     id: "20",
@@ -273,7 +272,7 @@ export const SKILLS = [
     title: "mongodb",
     icon: SiMongodb,
     description:
-      "nosql database that stores data in flexible, json-like documents, making it ideal for modern applications. where all my data lives—organized, flexible, and always ready for a quick query.",
+      "nosql database that stores data in flexible, json-like documents, making it ideal for modern applications. where all my data lives — organized, flexible, and always ready for a quick query.",
   },
   {
     id: "22",
@@ -297,7 +296,7 @@ export const SKILLS = [
     title: "tailwindcss",
     icon: SiTailwindcss,
     description:
-      "tailwind css is a utility-first css framework that speeds up ui development with pre-designed classes. the cheat code for styling—my superhero!",
+      "tailwind css is a utility-first css framework that speeds up ui development with pre-designed classes. the cheat code for styling - my superhero!",
   },
   {
     id: "25",
@@ -329,18 +328,10 @@ export const SKILLS = [
     title: "jira",
     icon: SiJirasoftware,
     description:
-      "project management and issue tracking for agile development and teams, helping track issues, sprints, and workflows. where tasks go to get organized—because even projects need a to-do list.",
+      "project management and issue tracking for agile development and teams, helping track issues, sprints, and workflows. where tasks go to get organized—because to-do lists are always a good idea.",
   },
   {
     id: "29",
-    type: "technologies",
-    title: "asana",
-    icon: SiAsana,
-    description:
-      "Task management and team collaboration platform. The ultimate checklist for keeping projects on track.",
-  },
-  {
-    id: "30",
     type: "technologies",
     title: "testing",
     icon: FaCode,
@@ -348,7 +339,7 @@ export const SKILLS = [
       "writing and maintaining unit tests for code reliability. implementing and analyzing a/b tests for feature optimization. ensuring different parts of the application work together seamlessly.",
   },
   {
-    id: "31",
+    id: "30",
     type: "technologies",
     title: "linux/ubuntu",
     icon: SiUbuntu,
@@ -356,7 +347,7 @@ export const SKILLS = [
       "linux is an open-source operating system, and ubuntu is one of its most popular distributions, known for its ease of use and stability. where I feel like a hacker 🥷",
   },
   {
-    id: "32",
+    id: "31",
     type: "technologies",
     title: "cloud services",
     icon: FaCloud,
@@ -364,7 +355,7 @@ export const SKILLS = [
       "Working with aws and gpc cloud platforms and services, that provide scalable infrastructure, storage, and computing power. Wwere my data lives—safe, scalable, and always ready for action.",
   },
   {
-    id: "33",
+    id: "32",
     title: "express",
     type: "technologies",
     icon: SiExpress,
@@ -372,7 +363,7 @@ export const SKILLS = [
       "building powerful web servers that deliver smooth, real-time experiences! minimal and flexible node.js web application framework, designed for building APIs and web applications.",
   },
   {
-    id: "34",
+    id: "33",
     type: "technologies",
     title: "ai & machine learning",
     icon: FaRobot,
