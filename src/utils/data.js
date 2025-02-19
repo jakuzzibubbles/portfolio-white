@@ -273,7 +273,7 @@ export const SKILLS = [
     title: "mongodb",
     icon: SiMongodb,
     description:
-      "noSQL database that stores data in flexible, JSON-like documents, making it ideal for modern applications. where all my data lives—organized, flexible, and always ready for a quick query.",
+      "nosql database that stores data in flexible, json-like documents, making it ideal for modern applications. where all my data lives—organized, flexible, and always ready for a quick query.",
   },
   {
     id: "22",
@@ -294,7 +294,7 @@ export const SKILLS = [
   {
     id: "24",
     type: "technologies",
-    title: "tailwind css",
+    title: "tailwindcss",
     icon: SiTailwindcss,
     description:
       "tailwind css is a utility-first css framework that speeds up ui development with pre-designed classes. the cheat code for styling—my superhero!",
@@ -302,7 +302,7 @@ export const SKILLS = [
   {
     id: "25",
     type: "technologies",
-    title: "git & gitHub",
+    title: "git & github",
     icon: SiGit,
     description:
       "git is a version control system that tracks changes in code, while gitHub is a platform for collaboration and code sharing. where I save my code and my sanity—one commit at a time.",
@@ -313,7 +313,7 @@ export const SKILLS = [
     title: "vs code",
     icon: FaTerminal,
     description:
-      "my all-time-favourite code editor with built-in support for debugging, extensions, and git integration. my coding playground - where bugs come to die - eventually.",
+      "my all-time-favourite code editor with built-in support for debugging, extensions, and git integration. my coding playground - where bugs come to die - eventually🤞",
   },
   {
     id: "27",
@@ -321,7 +321,7 @@ export const SKILLS = [
     title: "postman",
     icon: SiPostman,
     description:
-      "testing APIs, making it easier to debug and document backend services. the only mail I enjoy delivering—API requests, on time and error-free.",
+      "testing APIs, making it easier to debug and document backend services. the only mail I enjoy delivering — api requests, on time and error-free.",
   },
   {
     id: "28",
@@ -369,7 +369,7 @@ export const SKILLS = [
     type: "technologies",
     icon: SiExpress,
     description:
-      "building powerful web servers that deliver smooth, real-time experiences! minimal and flexible Node.js web application framework, designed for building APIs and web applications.",
+      "building powerful web servers that deliver smooth, real-time experiences! minimal and flexible node.js web application framework, designed for building APIs and web applications.",
   },
   {
     id: "34",
