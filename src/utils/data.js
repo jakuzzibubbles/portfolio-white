@@ -7,6 +7,10 @@ import {
   FaAws,
   FaTerminal,
   FaRobot,
+  FaBuilding,
+  FaHandshake,
+  FaBullhorn,
+  FaTasks,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -132,7 +136,7 @@ export const SKILLS = [
     id: "06",
     type: "experience",
     title: "sales manager",
-    icon: FaBriefcase,
+    icon: FaBuilding,
     description: `
       Zeitgold GmbH (Aug 2019 - Feb 2020 | Fulltime): 
       managed sales operations, driving revenue growth and customer acquisition. developed and implemented sales strategies to meet company targets.
@@ -142,7 +146,7 @@ export const SKILLS = [
     id: "07",
     type: "experience",
     title: "event manager",
-    icon: FaBriefcase,
+    icon: FaBuilding,
     description: `
       Gast Art Restaurations GmbH (Sep 2016 - Jul 2019 | Fulltime): 
       planned and executed events, ensuring smooth operations and client satisfaction. coordinated with vendors, managed budgets, and oversaw event logistics.
@@ -152,7 +156,7 @@ export const SKILLS = [
     id: "08",
     type: "experience",
     title: "archivist/project manager",
-    icon: FaBriefcase,
+    icon: FaBuilding,
     description: `
       CFA Berlin (Sep 2013 - Aug 2016 | Fulltime): 
       managed archival projects, ensuring accurate documentation and preservation of historical records. coordinated with teams to meet project deadlines and deliverables.
@@ -162,7 +166,7 @@ export const SKILLS = [
     id: "09",
     type: "experience",
     title: "gallery assistant",
-    icon: FaBriefcase,
+    icon: FaBuilding,
     description: `
       ALEXANDER OCHS PRIVATE (Beijing assignment) (Jul 2012 - Aug 2013 | Fulltime): 
       supported gallery operations, including exhibition setup, client relations, and administrative tasks. assisted in the coordination of international art exhibitions.
@@ -172,7 +176,7 @@ export const SKILLS = [
     id: "10",
     type: "achievements",
     title: "improved task timelines",
-    icon: GiInfinity,
+    icon: FaTasks,
     description:
       "reduced task completion timelines by 15% for a public institution web portal by implementing agile methodologies and optimizing team workflows. this involved breaking down tasks into smaller, manageable sprints, improving communication between teams, and using tools like JIRA to track progress. the result was faster delivery of features and improved client satisfaction.",
   },
@@ -180,7 +184,7 @@ export const SKILLS = [
     id: "11",
     type: "achievements",
     title: "increased team productivity",
-    icon: GiInfinity,
+    icon: FaHandshake,
     description:
       "boosted team productivity by 25% by introducing daily stand-ups and task boards, improving task visibility and accountability across cross-functional teams. this structured approach helped identify bottlenecks early, streamline workflows, and ensure alignment on project goals. as a result, the team delivered projects faster and with fewer errors.",
   },
@@ -188,7 +192,7 @@ export const SKILLS = [
     id: "12",
     type: "achievements",
     title: "generated high-quality leads",
-    icon: GiInfinity,
+    icon: FaBullhorn,
     description:
       "identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region. this involved researching industry trends, identifying key decision-makers, and crafting personalized outreach strategies. the campaign resulted in a 20% increase in sales pipeline and strengthened the company’s market position.",
   },
