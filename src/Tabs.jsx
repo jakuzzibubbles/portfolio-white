@@ -59,7 +59,7 @@ const Tabs = () => {
                 size={30}
                 className={`text-yellow-800 sm:size-24 my-2 cursor-pointer ${
                   activeTab === "all"
-                    ? "hover:scale-125 transition-transform duration-200"
+                    ? "hover:scale-150 transition-transform duration-200"
                     : ""
                 }`}
                 onClick={() => handleSkillClick(skill.type)}
