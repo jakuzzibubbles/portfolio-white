@@ -6,6 +6,7 @@ import {
   FaCloud,
   FaAws,
   FaTerminal,
+  FaRobot,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -358,6 +359,14 @@ export const SKILLS = [
     icon: SiExpress,
     description:
       "building powerful web servers that deliver smooth, real-time experiences! minimal and flexible Node.js web application framework, designed for building APIs and web applications.",
+  },
+  {
+    id: "34",
+    type: "technologies",
+    title: "ai & machine learning",
+    icon: FaRobot,
+    description:
+      "foundational knowledge in generative ai and machine learning, exploring the potential of ai-driven solutions and models.",
   },
 ];
 
