@@ -45,7 +45,7 @@ Error generating stack: `+h.message+`
       worked closely with application engineers to streamline and optimize task completion timelines. supported agile web portal development for public institutions, improving task timelines by 13%. collaborated with product owners and stakeholders to enhance communication and align project goals.
     `},{id:"03",type:"experience",title:"online project manager",icon:Xt,description:`
       xtraz digital UG (Jul 2022 - Sep 2022 | Freelance): 
-      introduced daily team stand-ups and specialized task boards, increasing team productivity by 25%. facilitated stakeholder communication to ensure alignment with deliverables and timelines.
+      introduced daily team stand-ups, increasing team productivity by 25% by adding automation in task boards. facilitated stakeholder communication to ensure alignment with deliverables and timelines.
     `},{id:"04",type:"experience",title:"business development",icon:Xt,description:`
       Matok V'Kal Ltd (Jun 2022 - Nov 2022 | Freelance): 
       conducted comprehensive competitive analyses to identify market opportunities and understand the confectionery industry landscape in the DACH region. generated high-quality leads through targeted outreach and networking, securing the company’s market presence. facilitated meetings with key decision-makers, aligning with company objectives and driving business growth.
