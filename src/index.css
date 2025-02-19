@@ -8,7 +8,3 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: white;
 }
-
-.ui-circle {
-  @apply w-[130px] h-[130px] md:w-[180px] md:h-[180px] origin-top-right rotate-[-36.39deg] rounded-[170px] border-b-2 border-pink-900;
-}
