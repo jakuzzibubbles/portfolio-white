@@ -19,12 +19,12 @@ const LoadingScreen = () => {
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-white">
-      <p className="text-lg font-semibold text-pink-700 mb-2">
+      <p className="text-lg font-semibold text-yellow-700 mb-2">
         Loading... {progress}%
       </p>
-      <div className="w-64 h-2 bg-white rounded-full overflow-hidden">
+      <div className="w-80 h-8 bg-white rounded-full overflow-hidden">
         <div
-          className="h-full bg-pink-500 transition-all duration-100 ease-linear"
+          className="h-full bg-yellow-700 transition-all duration-100 ease-linear"
           style={{ width: `${progress}%` }}
         ></div>
       </div>

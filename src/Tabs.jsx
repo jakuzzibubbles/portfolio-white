@@ -77,6 +77,7 @@ const Tabs = () => {
             </div>
           ))}
         </div>
+        <p className="text-xs text-center mx-auto py-2">*reference on request</p>
       </div>
     </div>
   );

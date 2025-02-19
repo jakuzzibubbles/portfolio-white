@@ -92,7 +92,7 @@ export const SKILLS = [
   {
     id: "01",
     type: "experience",
-    title: "web designer & developer",
+    title: "webdesign & developement",
     icon: FaBriefcase,
     description: `
       Naturheilpraxis Daniel Brunner (Oct 2024 - Dec 2024 | freelance): 
