@@ -43,7 +43,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={40} className="hover:text-black" />
+            <FaLinkedin size={40} className="hover:text-cyan-800" />
           </a>
         </div>
       </div>
