@@ -1,5 +1,5 @@
 import React from 'react';
-import Tabs from "../components/Tabs";
+import Tabs from '../components/Tabs';
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
 
           <Tabs />
      </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

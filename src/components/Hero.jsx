@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
-
 
 const Hero = () => {
   return (
@@ -19,7 +15,7 @@ const Hero = () => {
 
       <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white pointer-events-none"></div>
 
-      <div className="relative z-10 relative flex flex-col items-center justify-center text-white min-h-screen text-center">
+      <div className="relative z-10 flex flex-col items-center justify-center text-white min-h-screen text-center">
         <h1 className="text-6xl font-bold mb-4">linh nguyen</h1>
         <div className="max-w-3xl px-4">
           <p className="text-lg font-semibold mb-8">

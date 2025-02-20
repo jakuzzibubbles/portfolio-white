@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { SKILLS, SKILLS_TABS } from "../utils/data";
 
-// to shuffle an array
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
 };
@@ -9,10 +8,11 @@ const shuffleArray = (array) => {
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("all");
 
-  const filteredSkills =
-    activeTab === "all"
+  const filteredSkills = useMemo(() => {
+    return activeTab === "all"
       ? shuffleArray([...SKILLS])
       : SKILLS.filter((skill) => skill.type === activeTab);
+  }, [activeTab]);
 
   const handleSkillClick = (type) => {
     setActiveTab(type);
@@ -43,41 +43,42 @@ const Tabs = () => {
               : "grid-cols-1"
           }`}
         >
-          {filteredSkills.map((skill, index) => (
-            <div
-              key={index} // index is the key
-              className="mb-4 p-4 flex flex-col items-center mx-auto text-center"
-              onClick={() => handleSkillClick(skill.type)}
-            >
-              <p
-                className="font-semibold cursor-pointer"
-                onClick={() => handleSkillClick(skill.type)}
-              >
-                {skill.title}
-              </p>
-              <skill.icon
-                size={30}
-                className={`text-yellow-800 sm:size-24 my-2 cursor-pointer ${
-                  activeTab === "all"
-                    ? "hover:scale-150 transition-transform duration-200"
-                    : ""
+          {filteredSkills.map((skill, index) => {
+            const { title, icon: Icon, description, type } = skill;
+            return (
+              <div
+                key={index}
+                className={`mb-4 p-4 flex flex-col items-center text-center rounded-lg ${
+                  activeTab !== "all" ? "border-2 border-yellow-900" : ""
                 }`}
-                onClick={() => handleSkillClick(skill.type)}
-              />
-              {activeTab !== "all" && (
-                <p className="text-center">
-                  {skill.description.split("\n").map((line, i) => (
-                    <span key={i}>
-                      {line.trim()}
-                      {i < skill.description.split("\n").length - 1 && <br />}
-                    </span>
-                  ))}
-                </p>
-              )}
-            </div>
-          ))}
+                onClick={() => handleSkillClick(type)}
+              >
+                <p className="font-semibold cursor-pointer">{title}</p>
+                <Icon
+                  size={30}
+                  className={`text-yellow-800 sm:text-24 my-2 cursor-pointer ${
+                    activeTab === "all"
+                      ? "hover:scale-150 transition-transform duration-200"
+                      : ""
+                  }`}
+                />
+                {activeTab !== "all" && (
+                  <p className="text-center">
+                    {description.split("\n").map((line, i) => (
+                      <span key={i}>
+                        {line.trim()}
+                        {i < description.split("\n").length - 1 && <br />}
+                      </span>
+                    ))}
+                  </p>
+                )}
+              </div>
+            );
+          })}
         </div>
-        <p className="text-xs text-center mx-auto py-2">*reference on request</p>
+        <p className="text-xs text-center mx-auto py-2">
+          *reference on request
+        </p>
       </div>
     </div>
   );
