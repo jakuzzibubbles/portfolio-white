@@ -35,6 +35,7 @@ import memoryImage from "../assets/memory-card.png";
 import taskImage from "../assets/task.png";
 import adminImage from "../assets/admin.png";
 import brunnerImage from "../assets/brunner.png";
+import travelstoryImage from "../assets/travelstory.png";
 
 export const projects = [
   {
@@ -78,6 +79,12 @@ export const projects = [
     image: taskImage,
     link: "https://jakuzzibubbles.github.io/taskmanager/",
     description: "just another to-do list",
+  },
+  {
+    title: "collecting memories",
+    image: travelstoryImage,
+    link: "https://github.com/jakuzzibubbles/TravelStory-App",
+    description: "fullstack app - staging",
   },
   {
     title: "admin dashboard",
@@ -265,7 +272,7 @@ export const SKILLS = [
     title: "css",
     icon: SiCss3,
     description:
-      "css brings style to the web with advanced features like animations, transitions, and responsive design. like when a lady puts makeup on her face.",
+      "css brings style to the web with advanced features like animations, transitions, and responsive design. like when a lady puts makeup on 💄",
   },
   {
     type: "technologies",
@@ -321,7 +328,7 @@ export const SKILLS = [
     title: "cloud services",
     icon: FaCloud,
     description:
-      "Working with aws and gpc cloud platforms and services, that provide scalable infrastructure, storage, and computing power. Wwere my data lives—safe, scalable, and always ready for action.",
+      "Working with aws and gpc cloud platforms and services, that provide scalable infrastructure, storage, and computing power. where my data lives—safe, scalable, and always ready for action.",
   },
   {
     title: "express",
