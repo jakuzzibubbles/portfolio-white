@@ -19,14 +19,14 @@ const Hero = () => {
 
       <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white pointer-events-none"></div>
 
-      <div className="relative z-10 relative flex flex-col items-center justify-center text-black min-h-screen text-center">
-        <h1 className="text-5xl font-bold mb-4">linh nguyen</h1>
+      <div className="relative z-10 relative flex flex-col items-center justify-center text-white min-h-screen text-center">
+        <h1 className="text-6xl font-bold mb-4">linh nguyen</h1>
         <div className="max-w-3xl px-4">
-          <p className="text-lg mb-8">
+          <p className="text-lg font-semibold mb-8">
             Hi, I&apos;m a project manager with lots of energy and a sense of
             humor. At night, I turn into a software developer, building fun apps
             that makes me happy. Currently exploring cloud computing because...
-            why not 👽! I love swimming in the ocean, Vietnamese street food,
+            why not! I love swimming in the ocean, Vietnamese street food,
             and my cats, along with all things art and all things code.
           </p>
         </div>
@@ -36,14 +36,14 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={40} />
+            <FaGithub size={40} className="hover:text-black" />
           </a>
           <a
             href="https://www.linkedin.com/in/jakuzzi263/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={40} />
+            <FaLinkedin size={40} className="hover:text-black" />
           </a>
         </div>
       </div>
