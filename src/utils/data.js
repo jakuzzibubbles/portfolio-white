@@ -11,6 +11,9 @@ import {
   FaHandshake,
   FaBullhorn,
   FaTasks,
+  FaCat,
+  FaUmbrellaBeach,
+  FaHouseUser,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -343,6 +346,25 @@ export const SKILLS = [
     icon: FaRobot,
     description:
       "foundational knowledge in generative ai and machine learning, exploring the potential of ai-driven solutions and models.",
+  },
+  {
+    type: "",
+    title: "cat mom",
+    icon: FaCat,
+    description:
+      "proud servant to my feline overlords. they graciously allow me to feed them and clean their litter boxes.",
+  },
+  {
+    type: "",
+    title: "happy by the beach",
+    icon: FaUmbrellaBeach,
+    description: "this goes without comment 👙",
+  },
+  {
+    type: "",
+    title: "love home-made food",
+    icon: FaHouseUser,
+    description: "no fancy hotel or restaurant will ever beat home-made food and vietnamese street food.",
   },
 ];
 
