@@ -89,7 +89,6 @@ export const projects = [
 
 export const SKILLS = [
   {
-    id: "01",
     type: "experience",
     title: "webdesign & developement",
     icon: FaBriefcase,
@@ -99,9 +98,8 @@ export const SKILLS = [
     `,
   },
   {
-    id: "02",
     type: "experience",
-    title: "it project assistant",
+    title: "technical project assistant",
     icon: FaBriefcase,
     description: `
       dreistrom.land AG (apr 2023 - jun 2023 | freelance): 
@@ -109,9 +107,8 @@ export const SKILLS = [
     `,
   },
   {
-    id: "03",
     type: "experience",
-    title: "online project manager",
+    title: "online marketing",
     icon: FaBriefcase,
     description: `
       xtraz digital UG (jul 2022 - sep 2022 | freelance): 
@@ -119,7 +116,6 @@ export const SKILLS = [
     `,
   },
   {
-    id: "04",
     type: "experience",
     title: "business development",
     icon: FaBriefcase,
@@ -129,7 +125,6 @@ export const SKILLS = [
     `,
   },
   {
-    id: "05",
     type: "experience",
     title: "operations",
     icon: FaBriefcase,
@@ -139,7 +134,6 @@ export const SKILLS = [
     `,
   },
   {
-    id: "06",
     type: "experience",
     title: "sales manager",
     icon: FaBuilding,
@@ -149,7 +143,6 @@ export const SKILLS = [
     `,
   },
   {
-    id: "07",
     type: "experience",
     title: "event manager",
     icon: FaBuilding,
@@ -159,9 +152,8 @@ export const SKILLS = [
     `,
   },
   {
-    id: "08",
     type: "experience",
-    title: "archivist/project manager",
+    title: "archivist",
     icon: FaBuilding,
     description: `
       CFA Berlin (sep 2013 - aug 2016 | fulltime): 
@@ -169,7 +161,6 @@ export const SKILLS = [
     `,
   },
   {
-    id: "09",
     type: "experience",
     title: "gallery assistant",
     icon: FaBuilding,
@@ -179,7 +170,6 @@ export const SKILLS = [
     `,
   },
   {
-    id: "10",
     type: "achievements",
     title: "improved task timelines",
     icon: FaTasks,
@@ -187,7 +177,6 @@ export const SKILLS = [
       "reduced task completion timelines by 15% for a public institution web portal by implementing agile methodologies and optimizing team workflows. this involved breaking down tasks into smaller, manageable sprints, improving communication between teams, and using tools like JIRA to track progress. the result was faster delivery of features and improved client satisfaction.",
   },
   {
-    id: "11",
     type: "achievements",
     title: "increased team productivity",
     icon: FaHandshake,
@@ -195,7 +184,6 @@ export const SKILLS = [
       "boosted team productivity by 25% by introducing daily stand-ups and task boards, improving task visibility and accountability across cross-functional teams. this structured approach helped identify bottlenecks early, streamline workflows, and ensure alignment on project goals. as a result, the team delivered projects faster and with fewer errors.",
   },
   {
-    id: "12",
     type: "achievements",
     title: "generated high-quality leads",
     icon: FaBullhorn,
@@ -203,7 +191,6 @@ export const SKILLS = [
       "identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region. this involved researching industry trends, identifying key decision-makers, and crafting personalized outreach strategies. the campaign resulted in a 20% increase in sales pipeline and strengthened the company’s market position.",
   },
   {
-    id: "13",
     type: "achievements",
     title: "integrated tools and enhanced workflows",
     icon: GiInfinity,
@@ -211,7 +198,6 @@ export const SKILLS = [
       "streamlined PR and marketing workflows by integrating tools like asana, reducing task redundancy and improving cross-team collaboration. this involved mapping out existing processes, identifying inefficiencies, and implementing automation where possible. the result was faster campaign execution and improved alignment between teams.",
   },
   {
-    id: "14",
     type: "skills",
     title: "digital project management",
     icon: FaLaptopCode,
@@ -219,7 +205,6 @@ export const SKILLS = [
       "guiding projects to success while keeping the team engaged and motivated. proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. skilled in agile methodologies and scrum , ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
   },
   {
-    id: "15",
     type: "skills",
     title: "aws cloud practitioner",
     icon: FaAws,
@@ -227,7 +212,6 @@ export const SKILLS = [
       "aws certified cloud practitioner (july 2024), with hands-on experience in deploying and managing cloud infrastructure on aws. fluency in core services, including ec2, s3, and iam, enabling scalable and secure cloud solutions for businesses.",
   },
   {
-    id: "16",
     type: "skills",
     title: "linux essentials",
     icon: FaTools,
@@ -235,7 +219,6 @@ export const SKILLS = [
       "Linux Professional Institute - LPI (January 2024). certified in linux essentials with practical knowledge of linux systems, including ubuntu. skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
   },
   {
-    id: "17",
     type: "skills",
     title: "agile exlorer",
     icon: GiSprint,
@@ -243,7 +226,6 @@ export const SKILLS = [
       "project management with scrum - IBB (november 2021), with expertise in facilitating agile teams, removing impediments, and ensuring smooth sprint cycles. proven track record of improving team productivity by 25% through effective scrum practices and stakeholder communication.",
   },
   {
-    id: "18",
     type: "technologies",
     title: "javascript",
     icon: SiJavascript,
@@ -251,7 +233,6 @@ export const SKILLS = [
       "modern web development, powering interactive and dynamic features on websites. still getting the hang of it, but already making buttons do more than just sit there!",
   },
   {
-    id: "19",
     type: "technologies",
     title: "react",
     icon: SiReact,
@@ -259,15 +240,13 @@ export const SKILLS = [
       "powerful library for building user interfaces, enabling reusable components and efficient rendering. building UIs one component at a time — because who doesn’t love a good reusable piece of code?",
   },
   {
-    id: "20",
     type: "technologies",
     title: "node.js",
     icon: IoLogoNodejs,
     description:
-      "node.js allows developers to build scalable and efficient server-side applications using javaScript. a way to use javaScript on the backend without feeling guilty about it.",
+      "node.js allows developers to build scalable and efficient server-side applications using javascript. a way to use javascript on the backend without feeling guilty about it.",
   },
   {
-    id: "21",
     type: "technologies",
     title: "mongodb",
     icon: SiMongodb,
@@ -275,7 +254,6 @@ export const SKILLS = [
       "nosql database that stores data in flexible, json-like documents, making it ideal for modern applications. where all my data lives — organized, flexible, and always ready for a quick query.",
   },
   {
-    id: "22",
     type: "technologies",
     title: "html",
     icon: SiHtml5,
@@ -283,7 +261,6 @@ export const SKILLS = [
       "html provides the structure for modern web applications, with support for multimedia and semantic elements. the skeleton of every website.",
   },
   {
-    id: "23",
     type: "technologies",
     title: "css",
     icon: SiCss3,
@@ -291,7 +268,6 @@ export const SKILLS = [
       "css brings style to the web with advanced features like animations, transitions, and responsive design. like when a lady puts makeup on her face.",
   },
   {
-    id: "24",
     type: "technologies",
     title: "tailwindcss",
     icon: SiTailwindcss,
@@ -299,7 +275,6 @@ export const SKILLS = [
       "tailwind css is a utility-first css framework that speeds up ui development with pre-designed classes. the cheat code for styling - my superhero!",
   },
   {
-    id: "25",
     type: "technologies",
     title: "git & github",
     icon: SiGit,
@@ -307,7 +282,6 @@ export const SKILLS = [
       "git is a version control system that tracks changes in code, while gitHub is a platform for collaboration and code sharing. where I save my code and my sanity—one commit at a time.",
   },
   {
-    id: "26",
     type: "technologies",
     title: "vs code",
     icon: FaTerminal,
@@ -315,7 +289,6 @@ export const SKILLS = [
       "my all-time-favourite code editor with built-in support for debugging, extensions, and git integration. my coding playground - where bugs come to die - eventually🤞",
   },
   {
-    id: "27",
     type: "technologies",
     title: "postman",
     icon: SiPostman,
@@ -323,7 +296,6 @@ export const SKILLS = [
       "testing APIs, making it easier to debug and document backend services. the only mail I enjoy delivering — api requests, on time and error-free.",
   },
   {
-    id: "28",
     type: "technologies",
     title: "jira",
     icon: SiJirasoftware,
@@ -331,7 +303,6 @@ export const SKILLS = [
       "project management and issue tracking for agile development and teams, helping track issues, sprints, and workflows. where tasks go to get organized—because to-do lists are always a good idea.",
   },
   {
-    id: "29",
     type: "technologies",
     title: "testing",
     icon: FaCode,
@@ -339,7 +310,6 @@ export const SKILLS = [
       "writing and maintaining unit tests for code reliability. implementing and analyzing a/b tests for feature optimization. ensuring different parts of the application work together seamlessly.",
   },
   {
-    id: "30",
     type: "technologies",
     title: "linux/ubuntu",
     icon: SiUbuntu,
@@ -347,7 +317,6 @@ export const SKILLS = [
       "linux is an open-source operating system, and ubuntu is one of its most popular distributions, known for its ease of use and stability. where I feel like a hacker 🥷",
   },
   {
-    id: "31",
     type: "technologies",
     title: "cloud services",
     icon: FaCloud,
@@ -355,7 +324,6 @@ export const SKILLS = [
       "Working with aws and gpc cloud platforms and services, that provide scalable infrastructure, storage, and computing power. Wwere my data lives—safe, scalable, and always ready for action.",
   },
   {
-    id: "32",
     title: "express",
     type: "technologies",
     icon: SiExpress,
@@ -363,7 +331,6 @@ export const SKILLS = [
       "building powerful web servers that deliver smooth, real-time experiences! minimal and flexible node.js web application framework, designed for building APIs and web applications.",
   },
   {
-    id: "33",
     type: "technologies",
     title: "ai & machine learning",
     icon: FaRobot,
@@ -373,9 +340,9 @@ export const SKILLS = [
 ];
 
 export const SKILLS_TABS = [
-  { id: "01", label: "all", value: "all" },
-  { id: "02", label: "experience", value: "experience" },
-  { id: "03", label: "achievements", value: "achievements" },
-  { id: "04", label: "skills", value: "skills" },
-  { id: "05", label: "technologies", value: "technologies" },
+  { label: "all", value: "all" },
+  { label: "experience", value: "experience" },
+  { label: "achievements", value: "achievements" },
+  { label: "skills", value: "skills" },
+  { label: "technologies", value: "technologies" },
 ];
