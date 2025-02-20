@@ -181,6 +181,34 @@ export const SKILLS = [
   },
   {
     type: "achievements",
+    title: "digital project management",
+    icon: FaLaptopCode,
+    description:
+      "guiding projects to success while keeping the team engaged and motivated. proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. skilled in agile methodologies and scrum , ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
+  },
+  {
+    type: "achievements",
+    title: "aws cloud practitioner",
+    icon: FaAws,
+    description:
+      "aws certified cloud practitioner (july 2024), with hands-on experience in deploying and managing cloud infrastructure on aws. fluency in core services, including ec2, s3, and iam, enabling scalable and secure cloud solutions for businesses.",
+  },
+  {
+    type: "achievements",
+    title: "linux essentials",
+    icon: FaTools,
+    description:
+      "Linux Professional Institute - LPI (January 2024). certified in linux essentials with practical knowledge of linux systems, including ubuntu. skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
+  },
+  {
+    type: "achievements",
+    title: "integrated tools and enhanced workflows",
+    icon: GiInfinity,
+    description:
+      "streamlined PR and marketing workflows by integrating tools like asana, reducing task redundancy and improving cross-team collaboration. this involved mapping out existing processes, identifying inefficiencies, and implementing automation where possible. the result was faster campaign execution and improved alignment between teams.",
+  },
+  {
+    type: "achievements",
     title: "improved task timelines",
     icon: FaTasks,
     description:
@@ -202,34 +230,6 @@ export const SKILLS = [
   },
   {
     type: "achievements",
-    title: "integrated tools and enhanced workflows",
-    icon: GiInfinity,
-    description:
-      "streamlined PR and marketing workflows by integrating tools like asana, reducing task redundancy and improving cross-team collaboration. this involved mapping out existing processes, identifying inefficiencies, and implementing automation where possible. the result was faster campaign execution and improved alignment between teams.",
-  },
-  {
-    type: "skills",
-    title: "digital project management",
-    icon: FaLaptopCode,
-    description:
-      "guiding projects to success while keeping the team engaged and motivated. proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. skilled in agile methodologies and scrum , ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
-  },
-  {
-    type: "skills",
-    title: "aws cloud practitioner",
-    icon: FaAws,
-    description:
-      "aws certified cloud practitioner (july 2024), with hands-on experience in deploying and managing cloud infrastructure on aws. fluency in core services, including ec2, s3, and iam, enabling scalable and secure cloud solutions for businesses.",
-  },
-  {
-    type: "skills",
-    title: "linux essentials",
-    icon: FaTools,
-    description:
-      "Linux Professional Institute - LPI (January 2024). certified in linux essentials with practical knowledge of linux systems, including ubuntu. skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
-  },
-  {
-    type: "skills",
     title: "agile exlorer",
     icon: GiSprint,
     description:
@@ -348,20 +348,20 @@ export const SKILLS = [
       "foundational knowledge in generative ai and machine learning, exploring the potential of ai-driven solutions and models.",
   },
   {
-    type: "",
+    type: "skills",
     title: "cat mom",
     icon: FaCat,
     description:
       "servant to my feline overlords. they allow me to feed them and clean their litter boxes.",
   },
   {
-    type: "",
+    type: "skills",
     title: "happy by the beach",
     icon: FaUmbrellaBeach,
     description: "this goes without comment 👙",
   },
   {
-    type: "",
+    type: "skills",
     title: "love home-made food",
     icon: FaHouseUser,
     description:
