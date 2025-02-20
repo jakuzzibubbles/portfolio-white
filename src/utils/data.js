@@ -352,7 +352,7 @@ export const SKILLS = [
     title: "cat mom",
     icon: FaCat,
     description:
-      "proud servant to my feline overlords. they graciously allow me to feed them and clean their litter boxes.",
+      "servant to my feline overlords. they allow me to feed them and clean their litter boxes.",
   },
   {
     type: "",
@@ -364,7 +364,8 @@ export const SKILLS = [
     type: "",
     title: "love home-made food",
     icon: FaHouseUser,
-    description: "no fancy hotel or restaurant will ever beat home-made food and vietnamese street food.",
+    description:
+      "no fancy hotel or restaurant will ever beat home-made food AND vietnamese street food.",
   },
 ];
 
