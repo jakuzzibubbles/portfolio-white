@@ -325,7 +325,7 @@ export const SKILLS = [
   },
   {
     type: "technologies",
-    title: "cloud services",
+    title: "cloud computing",
     icon: FaCloud,
     description:
       "Working with aws and gpc cloud platforms and services, that provide scalable infrastructure, storage, and computing power. where my data lives—safe, scalable, and always ready for action.",
