@@ -1,9 +1,23 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, useCallback } from "react";
 import { SKILLS, SKILLS_TABS } from "../utils/data";
 
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
 };
+
+const TabButton = ({ tab, activeTab, setActiveTab }) => (
+  <button
+    key={tab.value}
+    onClick={() => setActiveTab(tab.value)}
+    className={`px-4 py-2 border-2 border-yellow-900 rounded-full ${
+      activeTab === tab.value
+        ? "bg-gradient-to-b from-yellow-400 to-yellow-700 text-white font-semibold"
+        : "text-yellow-800 font-semibold"
+    }`}
+  >
+    {tab.label}
+  </button>
+);
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("all");
@@ -26,42 +40,45 @@ const Tabs = () => {
     }
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const tabsElement = document.getElementById("tabs");
-      if (tabsElement) {
-        setShowScrollButton(window.scrollY > tabsElement.offsetTop);
-      }
-    };
+  const handleScroll = useCallback(() => {
+    const tabsElement = document.getElementById("tabs");
+    if (tabsElement) {
+      setShowScrollButton(window.scrollY > tabsElement.offsetTop);
+    }
+  }, []);
 
+  useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [handleScroll]);
 
   return (
     <div id="tabs" className="container mx-auto text-center px-4">
       <div className="flex justify-center gap-4 mb-6 flex-wrap">
         {SKILLS_TABS.map((tab) => (
-          <button
+          <TabButton
             key={tab.value}
-            onClick={() => setActiveTab(tab.value)}
-            className={`px-4 py-2 border-2 border-yellow-900 rounded-full ${
-              activeTab === tab.value
-                ? "bg-gradient-to-b from-yellow-400 to-yellow-700 text-white font-semibold"
-                : "text-yellow-800 font-semibold"
-            }`}
-          >
-            {tab.label}
-          </button>
+            tab={tab}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+          />
         ))}
       </div>
       <div className="text-left max-w-7xl container mx-auto text-center">
         <div
           className={`grid gap-4 ${
-            activeTab === "all" || activeTab === "technologies"
+            activeTab === "all"
+              ? "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6"
+              : activeTab === "technologies"
               ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+              : activeTab === "achievements"
+              ? "grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2"
+              : activeTab === "experience"
+              ? "grid-cols-1"
+              : activeTab === "skills"
+              ? "grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3"
               : "grid-cols-1"
           }`}
         >
