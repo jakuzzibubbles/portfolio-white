@@ -104,9 +104,9 @@ const Tabs = () => {
         {showScrollButton && (
           <button
             onClick={scrollToTabs}
-            className="fixed bottom-4 left-1/2 -translate-x-1/2 w-8 h-8 flex items-center justify-center bg-transparent text-2xl"
+            className="fixed bottom-4 left-1/2 -translate-x-1/2 w-10 h-10 flex items-center justify-center text-yellow-900 font-semibold text-2xl border-2 border-yellow-900 rounded-full"
           >
-            🔝
+            ↑
           </button>
         )}
       </div>
