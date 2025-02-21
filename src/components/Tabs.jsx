@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { SKILLS, SKILLS_TABS } from "../utils/data";
 
 const shuffleArray = (array) => {
@@ -7,6 +7,7 @@ const shuffleArray = (array) => {
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("all");
+  const [showScrollButton, setShowScrollButton] = useState(false);
 
   const filteredSkills = useMemo(() => {
     return activeTab === "all"
@@ -18,8 +19,29 @@ const Tabs = () => {
     setActiveTab(type);
   };
 
+  const scrollToTabs = () => {
+    const tabsElement = document.getElementById("tabs");
+    if (tabsElement) {
+      window.scrollTo({ top: tabsElement.offsetTop, behavior: "smooth" });
+    }
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const tabsElement = document.getElementById("tabs");
+      if (tabsElement) {
+        setShowScrollButton(window.scrollY > tabsElement.offsetTop);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="container mx-auto text-center px-4">
+    <div id="tabs" className="container mx-auto text-center px-4">
       <div className="flex justify-center gap-4 mb-6 flex-wrap">
         {SKILLS_TABS.map((tab) => (
           <button
@@ -79,6 +101,14 @@ const Tabs = () => {
         <p className="text-xs text-center mx-auto py-2">
           *reference on request
         </p>
+        {showScrollButton && (
+          <button
+            onClick={scrollToTabs}
+            className="fixed bottom-4 right-1 w-8 h-8 flex items-center justify-center bg-transparent text-2xl border-2 border-yellow-900 rounded-full"
+          >
+            🔝
+          </button>
+        )}
       </div>
     </div>
   );
