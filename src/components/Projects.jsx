@@ -54,7 +54,7 @@ const Projects = () => {
         ))}
       </Swiper>
 
-      <div className="flex justify-center items-center gap-8 mt-6">
+      <div className="hidden md:flex justify-center items-center gap-8 mt-6">
         <button
           onClick={() => swiperRef.current.swiper.slidePrev()}
           className="bg-transparent text-yellow-600/80 text-2xl p-3 rounded-full shadow-lg transform transition-transform hover:scale-125 border-2"
