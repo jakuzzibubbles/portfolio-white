@@ -38,7 +38,7 @@ function App() {
         <p className="mt-8">
           &copy; 2025{" "}
           <a
-            href="mailto:linh.nguyen@example.com"
+            href="mailto:dieulinhnguyenberlin@gmail.com"
             className="text-yellow-900 hover:underline"
           >
             dieulinhnguyenberlin@gmail.com
