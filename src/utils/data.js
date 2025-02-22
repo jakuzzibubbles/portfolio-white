@@ -42,6 +42,24 @@ import travelstoryImage from "../assets/travelstory.png";
 
 export const projects = [
   {
+    title: "webdesign&development",
+    image: brunnerImage,
+    link: "https://www.hp-brunner.de/",
+    description: "more jobs like this please",
+  },
+  {
+    title: "be my valentine",
+    image: valentineImage,
+    link: "https://jakuzzibubbles.github.io/be-my-valentine/",
+    description: "a message for your date",
+  },
+  {
+    title: "collecting memories",
+    image: travelstoryImage,
+    link: "https://github.com/jakuzzibubbles/TravelStory-App",
+    description: "fullstack app - staging",
+  },
+  {
     title: "five shrooms",
     image: mushroomsImage,
     link: "https://shrooms.vercel.app/",
@@ -54,16 +72,10 @@ export const projects = [
     description: "learning react",
   },
   {
-    title: "be my valentine",
-    image: valentineImage,
-    link: "https://jakuzzibubbles.github.io/be-my-valentine/",
-    description: "a message for your date",
-  },
-  {
-    title: "webdesign&development",
-    image: brunnerImage,
-    link: "https://www.hp-brunner.de/",
-    description: "more jobs like this please",
+    title: "collecting ideas",
+    image: taskImage,
+    link: "https://jakuzzibubbles.github.io/taskmanager/",
+    description: "just another to-do list",
   },
   {
     title: "portfolio paralax",
@@ -76,18 +88,6 @@ export const projects = [
     image: portfolio1Image,
     link: "https://jakuzzibubbles-portfolio.vercel.app/",
     description: "built using react and tailwindcss",
-  },
-  {
-    title: "collecting ideas",
-    image: taskImage,
-    link: "https://jakuzzibubbles.github.io/taskmanager/",
-    description: "just another to-do list",
-  },
-  {
-    title: "collecting memories",
-    image: travelstoryImage,
-    link: "https://github.com/jakuzzibubbles/TravelStory-App",
-    description: "fullstack app - staging",
   },
   {
     title: "admin dashboard",
