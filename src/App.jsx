@@ -34,11 +34,19 @@ function App() {
       <Hero />
       <Projects />
       <About />
-      <footer className="text-black text-center py-4 mt-8">
-        <p className="mt-8">&copy; 2025 linh nguyen</p>
+      <footer className="text-yellow-900 text-center py-4 mt-8">
+        <p className="mt-8">
+          &copy; 2025{" "}
+          <a
+            href="mailto:linh.nguyen@example.com"
+            className="text-yellow-900 hover:underline"
+          >
+            dieulinhnguyenberlin@gmail.com
+          </a>
+        </p>
       </footer>
     </div>
   );
-};
+}
 
 export default App;
