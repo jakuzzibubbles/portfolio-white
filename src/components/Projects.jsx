@@ -15,14 +15,15 @@ const Projects = () => {
       <h1 className="text-3xl text-black text-center mb-12 flex items-center justify-center gap-2 flex-wrap">
         my personal collection of digital experiences made with 💛
       </h1>
-      
+
       <Swiper
         ref={swiperRef}
         slidesPerView={1.2}
+        slidesPerGroup={1.2}
         spaceBetween={40}
         breakpoints={{
-          640: { slidesPerView: 2.2 },
-          1024: { slidesPerView: 3.2 },
+          640: { slidesPerView: 2.2, slidesPerGroup: 2 },
+          1024: { slidesPerView: 3.2, slidesPerGroup: 3 },
         }}
         freeMode={true}
         grabCursor={true}
