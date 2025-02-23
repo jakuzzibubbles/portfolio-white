@@ -388,7 +388,7 @@ export const testimonials = [
   {
     name: "Frank S.",
     role: "CEO, SD-Peroro",
-    text: "Linh was incredible to work with. A true workaholic, incredibly passionate and an amazing human being. She left a real mark on our company.",
+    text: "Linh's energy is AMAZING! She shows up every day ready to work with the best attitude anyone can ask for. She's an Asana guru and works magic with any spreadsheet.",
   },
   {
     name: "Sveta M.",
