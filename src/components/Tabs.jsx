@@ -43,8 +43,12 @@ const Tabs = () => {
 
   const handleScroll = useCallback(() => {
     const tabsElement = document.getElementById("tabs");
-    if (tabsElement) {
-      setShowScrollButton(window.scrollY > tabsElement.offsetTop);
+    const referenceElement = document.getElementById("reference");
+    if (tabsElement && referenceElement) {
+      const showButton =
+        window.scrollY > tabsElement.offsetTop &&
+        window.scrollY < referenceElement.offsetTop;
+      setShowScrollButton(showButton);
     }
   }, []);
 
@@ -116,9 +120,6 @@ const Tabs = () => {
             );
           })}
         </div>
-        <p className="text-xs text-center mx-auto py-2">
-          *reference on request
-        </p>
         {showScrollButton && (
           <button
             onClick={scrollToTabs}
@@ -127,6 +128,9 @@ const Tabs = () => {
             <FaArrowUp />
           </button>
         )}
+        <p id="reference" className="text-xs text-center mx-auto py-2">
+          *reference on request
+        </p>
       </div>
     </div>
   );

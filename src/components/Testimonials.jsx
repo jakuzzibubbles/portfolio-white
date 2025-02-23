@@ -18,20 +18,24 @@ export default function Testimonials() {
   return (
     <div className="py-12 bg-transparent text-center">
       <h2 className="text-3xl text-yellow-900 mb-6 ">what clients say</h2>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center flex-wrap gap-4 sm:gap-6">
         <button
           onClick={prevTestimonial}
           className="p-2 rounded-full border-2 border-yellow-900 transition"
         >
           <ChevronLeft size={24} className="text-yellow-800" />
         </button>
-        <div className="w-96 shadow-lg p-6 bg-white rounded-lg mx-4 min-h-[220px] max-h-[350px] flex flex-col flex-grow items-center justify-center overflow-hidden">
+        <div className="w-full sm:w-96 shadow-lg p-6 bg-white rounded-lg mx-4 min-h-[220px] max-h-[350px] flex flex-col flex-grow items-center justify-center overflow-hidden">
           <div className="flex flex-col items-center">
-            <p className="text-gray-700 italic">"{testimonials[index].text}"</p>
-            <p className="mt-4 font-semibold text-gray-900">
+            <p className="text-gray-700 italic text-sm sm:text-base text-center">
+              "{testimonials[index].text}"
+            </p>
+            <p className="mt-4 font-semibold text-gray-900 text-sm sm:text-lg">
               {testimonials[index].name}
             </p>
-            <p className="text-sm text-gray-500">{testimonials[index].role}</p>
+            <p className="text-xs sm:text-sm text-gray-500">
+              {testimonials[index].role}
+            </p>
           </div>
         </div>
         <button

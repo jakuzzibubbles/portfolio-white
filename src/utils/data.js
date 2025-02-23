@@ -378,7 +378,7 @@ export const testimonials = [
   {
     name: "Noam K.",
     role: "CEO, Matok V'Kal Ltd",
-    text: "Linh Has worked as a freelancer on a project whose objective was to assemble a potential list of clients in Germany and arrange a meeting between the CEO of the client and the CEO of our company. Her list assembly was quick, efficient and was done with great expertise. Her understanding of the company's needs was outstanding. After the list assembly she has made a good screening of the companies according to their interest in our product and the meetings that were arranged were with the right people and with real potential clients for future closing of contracts. All and all Linh has arranged in a relatively short time profound meetings. Working with her has saved the company time and money compared to other alternatives.",
+    text: "Her list assembly was quick, efficient and was done with great expertise. Her understanding of the company's needs was outstanding. She has made a good screening of the companies according to their interest in our product and the meetings that were arranged were with the right people and with real potential clients for future closing of contracts. Working with her has saved the company time and money compared to other alternatives.",
   },
   {
     name: "Grig R.",
