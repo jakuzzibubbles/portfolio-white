@@ -21,19 +21,19 @@ export default function Testimonials() {
       <div className="flex justify-center mb-6">
         {index === 2 ? (
           <>
-            <FaStar className="text-3xl text-yellow-900" />
-            <FaStar className="text-3xl text-yellow-900" />
-            <FaStar className="text-3xl text-yellow-900" />
-            <FaStar className="text-3xl text-yellow-900" />
-            <FaStarHalfAlt className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-600" />
+            <FaStar className="text-3xl text-yellow-600" />
+            <FaStar className="text-3xl text-yellow-600" />
+            <FaStar className="text-3xl text-yellow-600" />
+            <FaStarHalfAlt className="text-3xl text-yellow-600" />
           </>
         ) : (
           <>
-            <FaStar className="text-3xl text-yellow-900" />
-            <FaStar className="text-3xl text-yellow-900" />
-            <FaStar className="text-3xl text-yellow-900" />
-            <FaStar className="text-3xl text-yellow-900" />
-            <FaStar className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-600" />
+            <FaStar className="text-3xl text-yellow-600" />
+            <FaStar className="text-3xl text-yellow-600" />
+            <FaStar className="text-3xl text-yellow-600" />
+            <FaStar className="text-3xl text-yellow-600" />
           </>
         )}
       </div>
