@@ -1,10 +1,10 @@
 import {
   FaLaptopCode,
+  FaLinux,
   FaTools,
   FaCloud,
   FaAws,
   FaRobot,
-  FaBuilding,
   FaHandshake,
   FaBullhorn,
   FaTasks,
@@ -21,6 +21,11 @@ import {
   FaNodeJs,
   FaProjectDiagram,
   FaCode,
+  FaUserCog,
+  FaCalendarAlt,
+  FaFolderOpen,
+  FaBriefcase,
+  FaImages,
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -30,6 +35,9 @@ import {
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { GiSprint, GiInfinity } from "react-icons/gi";
+import { AiOutlineBarChart } from "react-icons/ai";
+import { FaSackDollar } from "react-icons/fa6";
+
 import mushroomsImage from "../assets/mushrooms.png";
 import valentineImage from "../assets/valentine.png";
 import paralaxImage from "../assets/paralax.png";
@@ -103,34 +111,43 @@ export const SKILLS = [
     title: "webdesign & developement",
     icon: FaCode,
     description: `
-      Naturheilpraxis Daniel Brunner (oct 2024 - dec 2024 | freelance): 
+      Naturheilpraxis Daniel Brunner | oct 2024 - dec 2024 | freelance: 
       designed and developed a user-friendly website layout using website builder tools, reflecting the client’s brand identity and values. customized page structures and navigation for seamless usability and accessibility. edited and optimized images to enhance visual appeal and improve website performance. implemented SEO strategies to increase organic traffic.
     `,
   },
   {
     type: "experience",
-    title: "technical project assistant",
-    icon: FaProjectDiagram,
+    title: "ux researcher",
+    icon: FaUserCog,
     description: `
-      dreistrom.land AG (apr 2023 - jun 2023 | freelance): 
+      FindMyKids | aug 2023 | freelance:
+      Conducted UX evaluations to implement culturally native adjustments to align with regional preferences. Developed and tested hypotheses to refine app features and marketing campaigns.
+    `,
+  },
+  {
+    type: "experience",
+    title: "technical project assistant",
+    icon: FaTools,
+    description: `
+      dreistrom.land AG | apr 2023 - jun 2023 | freelance: 
       worked closely with application engineers to streamline and optimize task completion timelines. supported agile web portal development for public institutions, improving task timelines by 13%. collaborated with product owners and stakeholders to enhance communication and align project goals.
     `,
   },
   {
     type: "experience",
     title: "online marketing",
-    icon: FaProjectDiagram,
+    icon: AiOutlineBarChart,
     description: `
-      xtraz digital UG (jul 2022 - sep 2022 | freelance): 
+      xtraz digital UG | jul 2022 - sep 2022 | freelance: 
       introduced daily team stand-ups, increasing team productivity by 25% by adding automation in task boards. facilitated stakeholder communication to ensure alignment with deliverables and timelines.
     `,
   },
   {
     type: "experience",
     title: "business development",
-    icon: FaProjectDiagram,
+    icon: FaBriefcase,
     description: `
-      Matok V'Kal Ltd (jun 2022 - nov 2022 | freelance): 
+      Matok V'Kal Ltd | jun 2022 - nov 2022 | freelance: 
       conducted comprehensive competitive analyses to identify market opportunities and understand the confectionery industry landscape in the DACH region. generated high-quality leads through targeted outreach and networking, securing the company’s market presence. facilitated meetings with key decision-makers, aligning with company objectives and driving business growth.
     `,
   },
@@ -139,43 +156,43 @@ export const SKILLS = [
     title: "operations",
     icon: FaProjectDiagram,
     description: `
-      XWECAN (dec 2021 - may 2022 | freelance): 
+      XWECAN s.r.o. | dec 2021 - may 2022 | freelance: 
       worked closely with the DACH account team and CEO, facilitating cross-team communication to ensure seamless workflows. supported the team with data-driven content creation, contributing to PR and marketing efforts. responsible for tools, tool integrations, and onboarding new members on the technical side.
     `,
   },
   {
     type: "experience",
     title: "sales manager",
-    icon: FaBuilding,
+    icon: FaSackDollar,
     description: `
-      Zeitgold GmbH (aug 2019 - feb 2020 | fulltime): 
+      Zeitgold GmbH | aug 2019 - feb 2020 | fulltime: 
       managed sales operations, driving revenue growth and customer acquisition. developed and implemented sales strategies to meet company targets.
     `,
   },
   {
     type: "experience",
     title: "event manager",
-    icon: FaBuilding,
+    icon: FaCalendarAlt,
     description: `
-      Gast Art Restaurations GmbH (sep 2016 - jul 2019 | fulltime): 
+      Gast Art Restaurations GmbH | sep 2016 - jul 2019 | fulltime: 
       planned and executed events, ensuring smooth operations and client satisfaction. coordinated with vendors, managed budgets, and oversaw event logistics.
     `,
   },
   {
     type: "experience",
     title: "archivist",
-    icon: FaBuilding,
+    icon: FaFolderOpen,
     description: `
-      CFA Berlin (sep 2013 - aug 2016 | fulltime): 
+      CFA Berlin | sep 2013 - aug 2016 | fulltime: 
       managed archival projects, ensuring accurate documentation and preservation of historical records. coordinated with teams to meet project deadlines and deliverables.
     `,
   },
   {
     type: "experience",
     title: "gallery assistant",
-    icon: FaBuilding,
+    icon: FaImages,
     description: `
-      ALEXANDER OCHS PRIVATE (beijing assignment) (jul 2012 - aug 2013 | fulltime): 
+      ALEXANDER OCHS PRIVATE (beijing assignment) | jul 2012 - aug 2013 | fulltime: 
       supported gallery operations, including exhibition setup, client relations, and administrative tasks. assisted in the coordination of international art exhibitions.
     `,
   },
@@ -196,7 +213,7 @@ export const SKILLS = [
   {
     type: "achievements",
     title: "linux essentials",
-    icon: FaTools,
+    icon: FaLinux,
     description:
       "Linux Professional Institute - LPI (January 2024). certified in linux essentials with practical knowledge of linux systems, including ubuntu. skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
   },
