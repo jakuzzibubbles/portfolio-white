@@ -133,9 +133,11 @@ const Tabs = () => {
             <FaArrowUp />
           </button>
         )}
-        <p id="reference" className="text-xs text-center mx-auto py-2">
-          *reference on request
-        </p>
+        {activeTab !== "testimonials" && activeTab !== "skills" && (
+          <p id="reference" className="text-xs text-center mx-auto py-2">
+            *reference on request
+          </p>
+        )}
       </div>
     </div>
   );
