@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { testimonials } from "../utils/data";
-import { FaRegStar } from "react-icons/fa";
+import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 export default function Testimonials() {
   const [index, setIndex] = useState(0);
@@ -19,11 +19,23 @@ export default function Testimonials() {
   return (
     <div className="py-12 bg-transparent text-center">
       <div className="flex justify-center mb-6">
-        <FaRegStar className="text-3xl text-yellow-900" />
-        <FaRegStar className="text-3xl text-yellow-900" />
-        <FaRegStar className="text-3xl text-yellow-900" />
-        <FaRegStar className="text-3xl text-yellow-900" />
-        <FaRegStar className="text-3xl text-yellow-900" />
+        {index === 2 ? (
+          <>
+            <FaStar className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-900" />
+            <FaStarHalfAlt className="text-3xl text-yellow-900" />
+          </>
+        ) : (
+          <>
+            <FaStar className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-900" />
+            <FaStar className="text-3xl text-yellow-900" />
+          </>
+        )}
       </div>
       <div className="flex items-center justify-center flex-wrap gap-4 sm:gap-6">
         <button

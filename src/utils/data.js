@@ -376,14 +376,14 @@ export const testimonials = [
     text: "We hired Linh to help us managing a challenging project and her performance was outstanding. She was able to handle multiple stakeholders while bringing our team to peak performance. Her open and good-humored spirit was essential for a smooth process and cheerful employees🙂 She has also added sophisticated automatisms to our task management that we still use today.",
   },
   {
-    name: "Noam K.",
-    role: "CEO, Matok V'Kal Ltd",
-    text: "Her list assembly was quick, efficient and was done with great expertise. Her understanding of the company's needs was outstanding. She has made a good screening of the companies according to their interest in our product and the meetings that were arranged were with the right people and with real potential clients for future closing of contracts. Working with her has saved the company time and money compared to other alternatives.",
-  },
-  {
     name: "Grig R.",
     role: "Founder, XWECAN s.r.o",
     text: "Linh was incredible to work with. A true workaholic, incredibly passionate and an amazing human being. She left a real mark on our company.",
+  },
+  {
+    name: "Noam K.",
+    role: "CEO, Matok V'Kal Ltd",
+    text: "Her list assembly was quick, efficient and was done with great expertise. Her understanding of the company's needs was outstanding. She has made a good screening of the companies according to their interest in our product and the meetings that were arranged were with the right people and with real potential clients for future closing of contracts. Working with her has saved the company time and money compared to other alternatives.",
   },
   {
     name: "Frank S.",
