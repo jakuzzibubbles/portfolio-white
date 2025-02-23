@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import LoadingScreen from "./components/Loading";
 // import Learnings from "./components/Learnings";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -37,7 +37,7 @@ function App() {
       <Projects />
       <About />
       {/* <Learnings /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       <footer className="text-yellow-900 text-center py-4 mt-8">
         <p className="mt-8">
           &copy; 2025{" "}

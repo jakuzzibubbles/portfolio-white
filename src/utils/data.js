@@ -403,4 +403,5 @@ export const SKILLS_TABS = [
   { label: "achievements", value: "achievements" },
   { label: "skills", value: "skills" },
   { label: "technologies", value: "technologies" },
+  { label: "testimonials", value: "testimonials" },
 ];
