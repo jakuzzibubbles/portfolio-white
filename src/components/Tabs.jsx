@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect, useCallback } from "react";
 import { SKILLS, SKILLS_TABS } from "../utils/data";
+import { FaArrowUp } from "react-icons/fa";
 
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
@@ -121,9 +122,9 @@ const Tabs = () => {
         {showScrollButton && (
           <button
             onClick={scrollToTabs}
-            className="fixed bottom-4 left-1/2 -translate-x-1/2 w-8 h-8 flex items-center justify-center text-yellow-800 font-semibold text-5xl rounded-full mb-20 hover:bg-yellow-800 hover:text-white hover:border-none hover:text-3xl"
+            className="fixed bottom-4 left-1/2 -translate-x-1/2 w-8 h-8 flex items-center justify-center text-yellow-800 font-semibold text-xl rounded-full mb-20 hover:bg-yellow-800 hover:text-white hover:border-none"
           >
-            ↑
+            <FaArrowUp />
           </button>
         )}
       </div>

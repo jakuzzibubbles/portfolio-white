@@ -1,11 +1,8 @@
 import {
-  FaBriefcase,
   FaLaptopCode,
   FaTools,
-  FaCode,
   FaCloud,
   FaAws,
-  FaTerminal,
   FaRobot,
   FaBuilding,
   FaHandshake,
@@ -14,22 +11,25 @@ import {
   FaCat,
   FaUmbrellaBeach,
   FaHouseUser,
+  FaJsSquare,
+  FaReact,
+  FaGitAlt,
+  FaJira,
+  FaUbuntu,
+  FaCss3Alt,
+  FaHtml5,
+  FaNodeJs,
+  FaProjectDiagram,
+  FaCode,
 } from "react-icons/fa";
 import {
-  SiJavascript,
-  SiReact,
   SiMongodb,
   SiExpress,
   SiTailwindcss,
-  SiGit,
   SiPostman,
-  SiJirasoftware,
-  SiUbuntu,
-  SiCss3,
-  SiHtml5,
 } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 import { GiSprint, GiInfinity } from "react-icons/gi";
-import { IoLogoNodejs } from "react-icons/io5";
 import mushroomsImage from "../assets/mushrooms.png";
 import valentineImage from "../assets/valentine.png";
 import paralaxImage from "../assets/paralax.png";
@@ -101,7 +101,7 @@ export const SKILLS = [
   {
     type: "experience",
     title: "webdesign & developement",
-    icon: FaBriefcase,
+    icon: FaCode,
     description: `
       Naturheilpraxis Daniel Brunner (oct 2024 - dec 2024 | freelance): 
       designed and developed a user-friendly website layout using website builder tools, reflecting the client’s brand identity and values. customized page structures and navigation for seamless usability and accessibility. edited and optimized images to enhance visual appeal and improve website performance. implemented SEO strategies to increase organic traffic.
@@ -110,7 +110,7 @@ export const SKILLS = [
   {
     type: "experience",
     title: "technical project assistant",
-    icon: FaBriefcase,
+    icon: FaProjectDiagram,
     description: `
       dreistrom.land AG (apr 2023 - jun 2023 | freelance): 
       worked closely with application engineers to streamline and optimize task completion timelines. supported agile web portal development for public institutions, improving task timelines by 13%. collaborated with product owners and stakeholders to enhance communication and align project goals.
@@ -119,7 +119,7 @@ export const SKILLS = [
   {
     type: "experience",
     title: "online marketing",
-    icon: FaBriefcase,
+    icon: FaProjectDiagram,
     description: `
       xtraz digital UG (jul 2022 - sep 2022 | freelance): 
       introduced daily team stand-ups, increasing team productivity by 25% by adding automation in task boards. facilitated stakeholder communication to ensure alignment with deliverables and timelines.
@@ -128,7 +128,7 @@ export const SKILLS = [
   {
     type: "experience",
     title: "business development",
-    icon: FaBriefcase,
+    icon: FaProjectDiagram,
     description: `
       Matok V'Kal Ltd (jun 2022 - nov 2022 | freelance): 
       conducted comprehensive competitive analyses to identify market opportunities and understand the confectionery industry landscape in the DACH region. generated high-quality leads through targeted outreach and networking, securing the company’s market presence. facilitated meetings with key decision-makers, aligning with company objectives and driving business growth.
@@ -137,7 +137,7 @@ export const SKILLS = [
   {
     type: "experience",
     title: "operations",
-    icon: FaBriefcase,
+    icon: FaProjectDiagram,
     description: `
       XWECAN (dec 2021 - may 2022 | freelance): 
       worked closely with the DACH account team and CEO, facilitating cross-team communication to ensure seamless workflows. supported the team with data-driven content creation, contributing to PR and marketing efforts. responsible for tools, tool integrations, and onboarding new members on the technical side.
@@ -182,7 +182,7 @@ export const SKILLS = [
   {
     type: "achievements",
     title: "digital project management",
-    icon: FaLaptopCode,
+    icon: FaProjectDiagram,
     description:
       "guiding projects to success while keeping the team engaged and motivated. proficient in managing end-to-end digital projects, from planning and resource allocation to execution and delivery. skilled in agile methodologies and scrum , ensuring teams stay aligned, motivated, and focused on achieving project goals within budget and timelines.",
   },
@@ -238,21 +238,21 @@ export const SKILLS = [
   {
     type: "technologies",
     title: "javascript",
-    icon: SiJavascript,
+    icon: FaJsSquare,
     description:
       "modern web development, powering interactive and dynamic features on websites. still getting the hang of it, but already making buttons do more than just sit there!",
   },
   {
     type: "technologies",
     title: "react",
-    icon: SiReact,
+    icon: FaReact,
     description:
       "powerful library for building user interfaces, enabling reusable components and efficient rendering. building UIs one component at a time — because who doesn’t love a good reusable piece of code?",
   },
   {
     type: "technologies",
     title: "node.js",
-    icon: IoLogoNodejs,
+    icon: FaNodeJs,
     description:
       "node.js allows developers to build scalable and efficient server-side applications using javascript. a way to use javascript on the backend without feeling guilty about it.",
   },
@@ -266,14 +266,14 @@ export const SKILLS = [
   {
     type: "technologies",
     title: "html",
-    icon: SiHtml5,
+    icon: FaHtml5,
     description:
       "html provides the structure for modern web applications, with support for multimedia and semantic elements. the skeleton of every website.",
   },
   {
     type: "technologies",
     title: "css",
-    icon: SiCss3,
+    icon: FaCss3Alt,
     description:
       "css brings style to the web with advanced features like animations, transitions, and responsive design. like when a lady puts makeup on 💄",
   },
@@ -287,14 +287,14 @@ export const SKILLS = [
   {
     type: "technologies",
     title: "git & github",
-    icon: SiGit,
+    icon: FaGitAlt,
     description:
       "git is a version control system that tracks changes in code, while gitHub is a platform for collaboration and code sharing. where I save my code and my sanity—one commit at a time.",
   },
   {
     type: "technologies",
     title: "vs code",
-    icon: FaTerminal,
+    icon: VscVscode,
     description:
       "my all-time-favourite code editor with built-in support for debugging, extensions, and git integration. my coding playground - where bugs come to die - eventually🤞",
   },
@@ -308,21 +308,21 @@ export const SKILLS = [
   {
     type: "technologies",
     title: "jira",
-    icon: SiJirasoftware,
+    icon: FaJira,
     description:
       "project management and issue tracking for agile development and teams, helping track issues, sprints, and workflows. where tasks go to get organized—because to-do lists are always a good idea.",
   },
   {
     type: "technologies",
     title: "testing",
-    icon: FaCode,
+    icon: FaLaptopCode,
     description:
       "writing and maintaining unit tests for code reliability. implementing and analyzing a/b tests for feature optimization. ensuring different parts of the application work together seamlessly.",
   },
   {
     type: "technologies",
     title: "linux/ubuntu",
-    icon: SiUbuntu,
+    icon: FaUbuntu,
     description:
       "linux is an open-source operating system, and ubuntu is one of its most popular distributions, known for its ease of use and stability. where I feel like a hacker 🥷",
   },
