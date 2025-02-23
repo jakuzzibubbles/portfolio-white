@@ -369,6 +369,34 @@ export const SKILLS = [
   },
 ];
 
+export const testimonials = [
+  {
+    name: "Timo W.",
+    role: "CEO/Founder, xtraz digital UG",
+    text: "We hired Linh to help us managing a challenging project and her performance was outstanding. She was able to handle multiple stakeholders while bringing our team to peak performance. Her open and good-humored spirit was essential for a smooth process and cheerful employees🙂 She has also added sophisticated automatisms to our task management that we still use today.",
+  },
+  {
+    name: "Noam K.",
+    role: "CEO, Matok V'Kal Ltd",
+    text: "Linh Has worked as a freelancer on a project whose objective was to assemble a potential list of clients in Germany and arrange a meeting between the CEO of the client and the CEO of our company. Her list assembly was quick, efficient and was done with great expertise. Her understanding of the company's needs was outstanding. After the list assembly she has made a good screening of the companies according to their interest in our product and the meetings that were arranged were with the right people and with real potential clients for future closing of contracts. All and all Linh has arranged in a relatively short time profound meetings. Working with her has saved the company time and money compared to other alternatives.",
+  },
+  {
+    name: "Grig R.",
+    role: "Founder, XWECAN s.r.o",
+    text: "Linh was incredible to work with. A true workaholic, incredibly passionate and an amazing human being. She left a real mark on our company.",
+  },
+  {
+    name: "Frank S.",
+    role: "CEO, SD-Peroro",
+    text: "Linh was incredible to work with. A true workaholic, incredibly passionate and an amazing human being. She left a real mark on our company.",
+  },
+  {
+    name: "Sveta M.",
+    role: "Head of Localization, FindMyKids",
+    text: "Linh is a person with incredible energy and a desire to work! She has given us valuable feedback on the app, and some new ideas on how to develop and upgrade it.",
+  },
+];
+
 export const SKILLS_TABS = [
   { label: "all", value: "all" },
   { label: "experience", value: "experience" },
