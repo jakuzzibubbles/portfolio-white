@@ -128,7 +128,7 @@ const Tabs = () => {
         {showScrollButton && (
           <button
             onClick={scrollToTabs}
-            className="fixed bottom-4 left-1/2 -translate-x-1/2 w-8 h-8 flex items-center justify-center text-yellow-800 font-semibold text-xl rounded-full mb-20 hover:bg-yellow-800 hover:text-white hover:border-none"
+            className="fixed bottom-4 left-1/2 -translate-x-1/2 w-8 h-8 flex items-center justify-center text-yellow-800 font-semibold text-xl rounded-full mb-20"
           >
             <FaArrowUp />
           </button>
