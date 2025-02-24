@@ -44,15 +44,15 @@ function Testimonials() {
         >
           <ChevronLeft size={37} className="text-yellow-800" />
         </button>
-        <div className="w-full sm:w-96 shadow-lg p-6 bg-white rounded-lg mx-4 min-h-[220px] max-h-[350px] flex flex-col flex-grow items-center justify-center overflow-hidden">
+        <div className="w-full sm:w-96 shadow-lg shadow-yellow-800 p-6 bg-white rounded-lg mx-4 min-h-[220px] max-h-[350px] flex flex-col flex-grow items-center justify-center overflow-hidden">
           <div className="flex flex-col items-center">
-            <p className="text-gray-700 italic text-sm sm:text-base text-center">
+            <p className="text-gray-800 italic text-sm sm:text-base text-center">
               "{testimonials[index].text}"
             </p>
-            <p className="mt-4 text-gray-900 text-sm sm:text-lg">
+            <p className="mt-4 text-gray-600 text-sm sm:text-lg">
               {testimonials[index].name}
             </p>
-            <p className="text-xs sm:text-sm text-gray-500">
+            <p className="text-xs sm:text-sm text-gray-800">
               {testimonials[index].role}
             </p>
           </div>
