@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useCallback } from "react";
 import { SKILLS, SKILLS_TABS } from "../utils/data";
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp, FaQuoteLeft } from "react-icons/fa";
 import Testimonials from "./Testimonials";
 
 const shuffleArray = (array) => {
@@ -13,11 +13,14 @@ const TabButton = ({ tab, activeTab, setActiveTab }) => (
     onClick={() => setActiveTab(tab.value)}
     className={`px-4 py-2 border-2 border-yellow-900 rounded-full ${
       activeTab === tab.value
-        ? "bg-gradient-to-b from-yellow-400 to-yellow-700 text-white font-semibold"
+        ? "bg-gradient-to-b from-yellow-500 to-yellow-800 text-white font-semibold"
         : "text-yellow-800 font-semibold"
     }`}
   >
-    {tab.label}
+    {tab.label}{" "}
+    {tab.value === "testimonials" && (
+      <FaQuoteLeft size={18} className="inline-block text-sm text-yellow-900 ml-2" />
+    )}
   </button>
 );
 
