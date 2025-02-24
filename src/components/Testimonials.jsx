@@ -40,16 +40,16 @@ export default function Testimonials() {
       <div className="flex items-center justify-center flex-wrap gap-4 sm:gap-6">
         <button
           onClick={prevTestimonial}
-          className="p-2 rounded-full border-2 border-yellow-900 transition"
+          className="p-2 rounded-full transition"
         >
-          <ChevronLeft size={24} className="text-yellow-800" />
+          <ChevronLeft size={37} className="text-yellow-800" />
         </button>
         <div className="w-full sm:w-96 shadow-lg p-6 bg-white rounded-lg mx-4 min-h-[220px] max-h-[350px] flex flex-col flex-grow items-center justify-center overflow-hidden">
           <div className="flex flex-col items-center">
             <p className="text-gray-700 italic text-sm sm:text-base text-center">
               "{testimonials[index].text}"
             </p>
-            <p className="mt-4 font-semibold text-gray-900 text-sm sm:text-lg">
+            <p className="mt-4 text-gray-900 text-sm sm:text-lg">
               {testimonials[index].name}
             </p>
             <p className="text-xs sm:text-sm text-gray-500">
@@ -59,9 +59,9 @@ export default function Testimonials() {
         </div>
         <button
           onClick={nextTestimonial}
-          className="p-2 rounded-full border-2 border-yellow-900 transition"
+          className="p-2 rounded-full transition"
         >
-          <ChevronRight size={24} className="text-yellow-800" />
+          <ChevronRight size={37} className="text-yellow-800" />
         </button>
       </div>
     </div>
