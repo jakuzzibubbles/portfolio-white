@@ -220,21 +220,21 @@ export const SKILLS = [
   },
   {
     type: "achievements",
-    title: "integrated tools and enhanced workflows",
+    title: "tools & workflows",
     icon: GiInfinity,
     description:
       "streamlined PR and marketing workflows by integrating tools like asana, reducing task redundancy and improving cross-team collaboration. this involved mapping out existing processes, identifying inefficiencies, and implementing automation where possible. the result was faster campaign execution and improved alignment between teams.",
   },
   {
     type: "achievements",
-    title: "improved task timelines",
+    title: "optimized task timelines",
     icon: FaTasks,
     description:
       "reduced task completion timelines by 15% for a public institution web portal by implementing agile methodologies and optimizing team workflows. this involved breaking down tasks into smaller, manageable sprints, improving communication between teams, and using tools like JIRA to track progress. the result was faster delivery of features and improved client satisfaction.",
   },
   {
     type: "achievements",
-    title: "increased team productivity",
+    title: "collaboration & productivity",
     icon: FaHandshake,
     description:
       "boosted team productivity by 25% by introducing daily stand-ups and task boards, improving task visibility and accountability across cross-functional teams. this structured approach helped identify bottlenecks early, streamline workflows, and ensure alignment on project goals. as a result, the team delivered projects faster and with fewer errors.",
@@ -244,7 +244,7 @@ export const SKILLS = [
     title: "generated high-quality leads",
     icon: FaBullhorn,
     description:
-      "identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region. this involved researching industry trends, identifying key decision-makers, and crafting personalized outreach strategies. the campaign resulted in a 20% increase in sales pipeline and strengthened the company’s market position.",
+      "identified and generated 50+ high-quality leads through targeted outreach and competitive analysis, securing a strong market presence for Matok V'Kal Ltd. in the DACH region. this involved researching industry trends, identifying key decision-makers, and crafting personalized outreach strategies. the campaign resulted in a successful partnership with germany’s leading confactionary industry.",
   },
   {
     type: "achievements",
@@ -339,7 +339,7 @@ export const SKILLS = [
   },
   {
     type: "technologies",
-    title: "linux/ubuntu",
+    title: "ubuntu",
     icon: FaUbuntu,
     description:
       "linux is an open-source operating system, and ubuntu is one of its most popular distributions, known for its ease of use and stability. where I feel like a hacker 🥷",
