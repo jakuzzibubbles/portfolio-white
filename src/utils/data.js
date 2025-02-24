@@ -216,7 +216,7 @@ export const SKILLS = [
     title: "linux essentials",
     icon: FaLinux,
     description:
-      "Linux Professional Institute - LPI (January 2024). certified in linux essentials with practical knowledge of linux systems, including ubuntu. skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
+      "linux professional institute - lpi (January 2024). certified in linux essentials with practical knowledge of linux systems, including ubuntu. skilled in shell scripting, system administration, and troubleshooting, enabling efficient management of server environments.",
   },
   {
     type: "achievements",
