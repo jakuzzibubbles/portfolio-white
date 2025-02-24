@@ -390,7 +390,7 @@ export const testimonials = [
   {
     name: "Timo W.",
     role: "CEO/Founder, xtraz digital UG",
-    text: "We hired Linh to help us managing a challenging project and her performance was outstanding. She was able to handle multiple stakeholders while bringing our team to peak performance. Her open and good-humored spirit was essential for a smooth process and cheerful employees🙂 She has also added sophisticated automatisms to our task management that we still use today.",
+    text: "We hired Linh to help us managing a challenging project and her performance was outstanding. She was able to handle multiple stakeholders while bringing our team to peak performance. Her open and good-humored spirit was essential for a smooth process and cheerful employees. She has also added sophisticated automatisms to our task management that we still use today.",
   },
   {
     name: "Grig R.",

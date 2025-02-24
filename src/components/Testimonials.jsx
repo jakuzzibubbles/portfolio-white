@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { testimonials } from "../utils/data";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
-export default function Testimonials() {
+function Testimonials() {
   const [index, setIndex] = useState(0);
 
   const nextTestimonial = () => {
@@ -66,4 +66,6 @@ export default function Testimonials() {
       </div>
     </div>
   );
-}
+};
+
+export default Testimonials;
