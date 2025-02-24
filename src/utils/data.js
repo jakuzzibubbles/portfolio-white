@@ -360,7 +360,7 @@ export const SKILLS = [
   },
   {
     type: "technologies",
-    title: "ai & machine learning",
+    title: "ai & ml",
     icon: FaRobot,
     description:
       "foundational knowledge in generative ai and machine learning, exploring the potential of ai-driven solutions and models.",
