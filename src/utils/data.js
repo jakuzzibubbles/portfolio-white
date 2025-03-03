@@ -38,6 +38,7 @@ import { VscVscode } from "react-icons/vsc";
 import { GiSprint, GiInfinity } from "react-icons/gi";
 import { AiOutlineBarChart } from "react-icons/ai";
 import { FaSackDollar } from "react-icons/fa6";
+import { MdOutlineSettingsSuggest } from "react-icons/md";
 
 import mushroomsImage from "../assets/mushrooms.png";
 import valentineImage from "../assets/valentine.png";
@@ -154,8 +155,8 @@ export const SKILLS = [
   },
   {
     type: "experience",
-    title: "operations",
-    icon: FaProjectDiagram,
+    title: "research assistent&technical support",
+    icon: MdOutlineSettingsSuggest,
     description: `
       XWECAN s.r.o. | dec 2021 - may 2022 | freelance: 
       worked closely with the DACH account team and CEO, facilitating cross-team communication to ensure seamless workflows. supported the team with data-driven content creation, contributing to PR and marketing efforts. responsible for tools, tool integrations, and onboarding new members on the technical side.
