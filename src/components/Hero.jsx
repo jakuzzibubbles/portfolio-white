@@ -35,7 +35,7 @@ const Hero = () => {
             <FaGithub size={40} className="hover:text-black" />
           </a>
           <a
-            href="https://www.linkedin.com/in/jakuzzi263/"
+            href="https://www.linkedin.com/in/jakuzzibubbles/"
             target="_blank"
             rel="noopener noreferrer"
           >
